@@ -321,8 +321,7 @@ exceptions will be given for failure to plan ahead or simply having
 
 **In-class Exercises**
 
-Many of the course topics will be supported by an exercise. Although
-these exercises do not count towards your course grade, they are a
+Many of the course topics will be supported by an exercise. These exercises indirectly count towards your course grade through participation credit; they are a
 very important part of your learning, and as such we *strongly*
 recommend that you complete them fully. We will review solutions to
 the exercises in subsequent class sessions, but we will *not* post
@@ -330,34 +329,33 @@ them. If you are having trouble completing an exercise, seek help in
 office hours, or on Piazza. We will have an option for you to submit
 your solutions on gradescope to get autograder feedback on them.
 
-**Fudge Grade**
+**Code Walkthroughs**
 
-Students typically do better in some aspects of the course than
-others. The "fudge grade" is a percentage of your final grade that
-duplicates your best performance from the individual grade categories listed below, but not group projects. For example, if your highest individual grade category is
-90% in written homework, then your fudge grade will contribute 1.8
-points towards your final grade.
+Students must meet with a course staff member to explain each of their individual homework assignments. Each walkthrough must be completed within a designated two-week period after submission/grading. Students who do not meet for a walkthrough within the expected period will receive 0 credit on the associated homework. Walkthrough outcomes could be:
+
+- Satisfactory - can explain most of the code and how it might be adapted with only minor gaps; will earn your full homework grade
+  
+- Questionable - must schedule a second walkthrough w/head or instructor; will incur a homework deduction at instructor discretion
+  
+Students who cannot make a scheduled walkthrough meeting for an unavoidable reason must cancel and reschedule 24 hours in advance of the original time.
 
 **Grading Breakdown**
 
--   2% - fudge grade (see above)
+-   10% - active in-class particpation
+    - <emph>You must complete 50% of each session's exercises to earn attendance credit for that day, and earn 85% attendance to receive full attendance credit (i.e., your attendance/participation percentage will be divided by 0.85 and then capped at 100%.) </emph>
 
--   4% - particpation (physical attendance and active participation)
-    - <emph>You must attend 85% of the classes to receive full attendance credit (i.e., your attendance/participation percentage will be divided by 0.85 and then capped at 100%.) </emph>
--   6% - individual written homework (3 total; due dates vary; will be posted on Canvas)
-
--   14% - individual coding homework (5 total; point values and due dates vary; will be
+-   18% - individual coding homework (4.5 total; due dates vary; will be
     listed on Canvas)
 
--   30% - midterm exam (in class, Mar. 9)
+-   30% - midterm exam (in class, October)
 
--   7% - midterm coding project (in teams of two, due approx. Mar. 23)
+-   6% - midterm coding project (in teams of two, due approx. October)
 
--   7% - final coding project (in teams, due approx. Apr. 27)
+-   6% - final coding project (in teams, due approx. December)
 
--   30% - final exam (2pm, May 6, Mudd Hall Room 26)
+-   30% - final exam (tbd)
 
-All scores and grader commentary on your homework and project
+All scores and grading feedback on your homework and project
 submissions, as well as exams, will be available via Gradescope. Please
 keep your own record of your grades so that you will know your standing
 in the course. At the end of the term, letter grades are generally
