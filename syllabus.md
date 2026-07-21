@@ -7,7 +7,7 @@ category: "syllabus"
 **Syllabus**\
 **Computer Science EN.601.220**\
 **Intermediate Programming**\
-**Spring 2026 (4 credits, E, in person)**
+**Fall 2026 (4 credits, E, in person)**
 
 *(The instructors reserve the right to make adjustments to this
 syllabus as deemed necessary with notice.)*
@@ -38,26 +38,31 @@ syllabus as deemed necessary with notice.)*
 
 **Instructors**
 
-Kai Presler-Marshall, Lecturer\
-<kai@cs.jhu.edu>,\
-<a class="external" target="_blank" href="https://www.cs.jhu.edu/faculty/kai-presler-marshall/">https://www.cs.jhu.edu/faculty/kai-presler-marshall/</a>,\
-Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/kpresler">https://wse.zoom.us/my/kpresler</a>
+Ali Darvish, Senior Lecturer\
+<darvish@jhu.edu>,\
+<a class="external" target="_blank" href="https://www.cs.jhu.edu/~darvish/">https://www.cs.jhu.edu/~darvish/</a>,\
+Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/darvish">https://wse.zoom.us/my/darvish</a>
 
-Patricio Simari, Senior Lecturer\
+Patricio Simari, Associate Teaching Professor\
 <mailto:psimari@cs.jhu.edu>,\
 <a class="external" target="_blank" href="https://www.cs.jhu.edu/faculty/patricio-simari/">https://www.cs.jhu.edu/faculty/patricio-simari/</a>,\
 Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/pdsimari">https://wse.zoom.us/my/pdsimari</a>
 
+Joanne Selinski, Teaching Professor\
+<mailto:joanne@cs.jhu.edu>,\
+<a class="external" target="_blank" href="https://www.cs.jhu.edu/~joanne">https://www.cs.jhu.edu/~joanne</a>,\
+Zoom: <a class="external" target="_blank" href="https://wse.zoom.us/my/jselinski">https://wse.zoom.us/my/jselinski</a>
+
 
 **Meetings - all in Maryland 310**
 
-Sec 01 (Presler-Marshall): MWF 10:00 am – 11:15 am
+Sec 01 (Darvish): MWF 10:30 am – 11:45 am
 
-Sec 02 (Presler-Marshall): MWF 12:00 pm – 1:15 pm
+Sec 02 (Darvish): MWF 12:00 pm – 1:15 pm
 
 Sec 03 (Simari): MWF 1:30 pm – 2:45 pm
 
-Sec 04 (Simari): MWF 3:00 pm – 4:15 pm
+Sec 04 (Selinski): MWF 3:00 pm – 4:15 pm
 
 
 **Course Assistants**
@@ -185,12 +190,9 @@ include a recap of the new material, discussion on the important
 concepts, review of previous exercises, and live coding
 exercises. Before each session, students are expected to go through
 the related material posted on the course website, and finish the
-coding exercises from the prior session. *Attendance will be taken
-near the end of each class session, based on exercise
-participation. Students who finish the coding exercises before the end
-of class will need to demo their solutions to a staff member for attendance credit 
-before leaving.* You are strongly encouraged to stay in the session and work on
-homework instead of leaving early.
+coding exercises from the prior session. *Attendance will be based on recap participation and exercise completion. Course staff will check and make note of student progress. Students are expected to show their work to a staff member before leaving each day.*
+You are strongly encouraged to attend each session fully and work on
+homework instead of leaving early if finished all exercises.
 
 There will be one midterm exam and a final exam, comprising a
 significant portion of your grade. These will be completed
