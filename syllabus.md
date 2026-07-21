@@ -349,7 +349,7 @@ Students who cannot make a scheduled walkthrough meeting for an unavoidable reas
 -   18% - individual coding homework (4.5 total; due dates vary; will be
     listed on Canvas)
 
--   30% - midterm exam (in class, October)
+-   30% - midterm exam (in class, 19 October)
 
 -   6% - midterm coding project (in teams of two, due approx. October)
 

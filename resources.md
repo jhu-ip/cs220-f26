@@ -12,7 +12,7 @@ This page has links to useful resources for the course.
 * <a class="external" target="_blank" href="https://www.cplusplus.com/reference/">cplusplus.com/reference</a> C/C++ reference website
 * <a class="external" target="_blank" href="https://en.cppreference.com/w/">en.cppreference.com/w</a> C++ reference website
 
-## Course NOTES - cliff-note compilations of topics covered (more to be added)
+## Course NOTES - cliff-note compilations of topics covered
 
 * <a href='notes/notes-unix.html'>Unix</a>
 * <a href='notes/notes-Cbasics.html'>C Basics</a> includes data types and operators
