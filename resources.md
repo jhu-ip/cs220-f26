@@ -41,6 +41,9 @@ This page has links to useful resources for the course.
 
 ## Code development resources
 
+* <a class="external" target="_blank" href="https://support.cs.jhu.edu/wiki/Main_Page">CS Dept. Support webpage</a>
+
+
 ### Linux command line
 
 * <a class="external" target="_blank" href="https://cs.jhu.edu/~joanne/unix.html">Unix/Linux Tutorial</a>
