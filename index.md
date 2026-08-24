@@ -24,6 +24,8 @@ Use the links at the top of the page to navigate the site.
 
 ## Important links
 
+<a class="external" target="_blank" href="https://canvas.jhu.edu">Canvas</a> is the official course learning platform for JHU. You can access our specific Gradescope and Piazza sites for this semester through the Canvas course instance. 
+
 <a class="external" target="_blank" href="https://github.com">Github</a> is used to facilitate team collaborations as well as group and individual source code version control. Scaffolding/starter files of exercises, homeworks, and projects are shared via the course public repository. You may never share your private repository with anyone else.
 
 <a class="external" target="_blank" href="https://piazza.com">Piazza</a> is

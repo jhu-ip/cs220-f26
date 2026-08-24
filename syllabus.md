@@ -204,10 +204,10 @@ material). The exams are designed to assess your knowledge of
 programming in C and C++ as well as your problem solving ability.
 
 Students will be expected to complete a variety of computer
-programming assignments, as well as written homework assignments. Two projects
+programming assignments and must complete an in-person code review with a staff member in order to receive credit for each homework (see Code Reviews section below). Two projects
 must be done in pairs or groups as specified; others are to
 be completed and submitted individually, with assistance as needed from course staff. 
-See the specific assignment page for details of what is
+See each assignment writeup for details of what is
 permitted for a particular assignment. Failure to follow 
 guidelines will be a violation of the academic ethics code, and
 reported and penalized accordingly.
@@ -224,9 +224,8 @@ expected.  While you are strongly encouraged to seek assistance
 primarily from course staff, some collaboration with others in the
 course and/or AI-assisted tools is permitted. You may discuss homework
 approaches and get help with code snippets, but you must not generate,
-co-develop or share whole solutions. You are responsible for
-understanding and being able to explain any code in your solutions
-that you did not generate yourself. All collaboration (including
+co-develop or share whole solutions. *You are responsible for
+understanding and being able to explain all code in your solutions.* All collaboration (including
 internet/AI-assistance) must be clearly documented in your submission, using inline comments to delineate wherever non-original code appears. For example,
 ```c
 // begin collaboration with chatGPT4
@@ -280,34 +279,10 @@ otherwise indicated on the course Piazza site). Non-compiling code will
 earn a score of zero, so students are strongly encouraged to
 double-check that all submitted code fully compiles with no errors or
 warnings in the standard course compilation environment. We will
-accommodate late submissions in several specific ways:
+only accept late submission in a 12-hour grace period immediately following each deadline. In other words, 11am after the due date (Baltimore time) is a non-negotiable hard deadline for all homework and project submissions. There is no penalty for submitting during the 12-hour grace period. 
 
--   Each student will be permitted to use up to 6 "late days" total
-    during the semester on the individual assignments only. However,
-    at most 2 late days may be used on any one assignment.
-
--   No late days are allowed for partner-required
-    coding projects (midterm and final).
-
--   Each delay of up to 24 hours past the 11:00 pm deadline for an
-    individual assignment counts as one late day.
-
--   Students do not need to ask permission or notify us when using any
-    late days; deductions will be automatically taken since your final
-    homework submission will be the one graded.
-
--   If you upload your assignment late to a submission portal that allows 
-    late submissions and you are out of late days (have used
-    all 6 previously), you will be deducted 1% of the possible
-    assignment points per hour (or fraction of an hour) that it is submitted
-    late. For example, if you have no late days and submit an
-    assignment 75 minutes late, you will be penalized 2% of the possible
-    assignment points.
-    
--   **Submission portals that allow late submissions will close 48 hours after the original deadline.** At that time, submissions are no longer accepted.
-
-Given these policies, please plan to get your homework done and turned
-in early so that if you encounter any last-minute delays, it will not
+Given this policy, please plan to get your homework done and turned
+in by each 11pm deadline so that if you encounter any last-minute delays, it will not
 hurt you too badly. Additionally, Gradescope will allow multiple
 submission attempts; we will simply grade the last one. So it's a good
 idea to develop your program incrementally, and turn in a
@@ -323,37 +298,41 @@ exceptions will be given for failure to plan ahead or simply having
 
 **In-class Exercises**
 
-Many of the course topics will be supported by an exercise. These exercises indirectly count towards your course grade through participation credit; they are a
-very important part of your learning, and as such we *strongly*
-recommend that you complete them fully. We will review solutions to
-the exercises in subsequent class sessions, but we will *not* post
-them. If you are having trouble completing an exercise, seek help in
-office hours, or on Piazza. We will have an option for you to submit
-your solutions on gradescope to get autograder feedback on them.
+Many of the course topics will be supported by an exercise. These
+exercises indirectly count towards your course grade through
+participation credit; they are a very important part of your learning,
+and as such we *strongly* recommend that you complete them
+fully. *Students are required to complete at least 50% of each day's
+exercises in order to earn participation credit for that day.* We will
+review solutions to the exercises in subsequent class sessions, but we
+will *not* post them. If you are having trouble completing an
+exercise, seek help in office hours, or on Piazza. We will have an
+option for you to submit your solutions on gradescope to get
+autograder feedback on them.
 
-**Code Walkthroughs**
+**Code Reviews**
 
-Students must meet with a course staff member to explain each of their individual homework assignments. Each walkthrough must be completed within a designated two-week period after submission/grading. Students who do not meet for a walkthrough within the expected period will receive 0 credit on the associated homework. Walkthrough outcomes could be:
+Students must meet with a course staff member to explain each of their homework assignments, including group projects. Each review must be completed within a designated two-week period after submission/grading. **Students who do not meet for a review within the expected period will receive 0 credit on the associated homework.** Code review outcomes could be:
 
 - Satisfactory - can explain most of the code and how it might be adapted with only minor gaps; will earn your full homework grade
   
-- Questionable - must schedule a second walkthrough w/head or instructor; will incur a homework deduction at instructor discretion
+- Questionable - must schedule a second review w/a head TA or instructor; will incur a homework deduction at instructor discretion
   
-Students who cannot make a scheduled walkthrough meeting for an unavoidable reason must cancel and reschedule 24 hours in advance of the original time.
+Students who cannot make a scheduled code review for an unavoidable reason must cancel and reschedule 24 hours in advance of the original time. More details on scheduling and timing will be provided as the semester unfolds.
 
 **Grading Breakdown**
 
 -   10% - active in-class particpation
-    - <emph>You must complete 50% of each session's exercises to earn attendance credit for that day, and earn 85% attendance to receive full attendance credit (i.e., your attendance/participation percentage will be divided by 0.85 and then capped at 100%.) </emph>
+    - <emph>You must complete 50% of each session's exercises to earn attendance credit for that day, and earn 85% attendance credits to receive full attendance points (i.e., your attendance/participation percentage will be divided by 0.85 and then capped at 100%.) This means you can earn the full 10% of participation even if missing or not completing 15% of the scheduled class sessions.</emph>
 
 -   18% - individual coding homework (4.5 total; due dates vary; will be
     listed on Canvas)
 
 -   30% - midterm exam (in class, 19 October)
 
--   6% - midterm coding project (in teams of two, due approx. October)
+-   6% - midterm coding project (in teams of two, due late October)
 
--   6% - final coding project (in teams, due approx. December)
+-   6% - final coding project (in teams, due early December)
 
 -   30% - final exam (tbd)
 
