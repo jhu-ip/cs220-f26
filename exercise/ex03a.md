@@ -7,7 +7,7 @@ title: Exercise 3-A
 <div class='admonition info'>
 <div class='title'>Info</div>
 <div class='content'>
-<p>This is an in-class exercise. An exercise page like this one will contain a brief description but is intended to be supplemented by discussion during our meeting time. Complete the exercise to the best of your ability in the time given. Feel free to talk with other students as you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, but you need not hand it in. You are encouraged to work at home to complete what you do not get through today.</p>
+<p>This is an in-class exercise. An exercise page like this one will contain a brief description but is intended to be supplemented by discussion during our meeting time. Complete the exercise to the best of your ability in the time given. Feel free to talk with other students as you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, minimally 50%. You are encouraged to work at home to complete what you do not get through today.</p>
 </div>
 </div>
 
@@ -39,7 +39,31 @@ title: Exercise 3-A
 
 
 ### Part 1
-Log into the ugrad system, stay in your home directory, and configure git within your ugrad account:
+
+Log into the ugrad system. You can do so by logging in to `ugradx.cs.jhu.edu`, or any machine `ugrad1.cs.jhu.edu`, `ugrad2.cs.jhu.edu`, … `ugrad12.cs.jhu.edu`. On a Mac or Unix/Linux machine, you will log into ugrad from the command line (Terminal app) using `ssh`.
+
+<div class='admonition info'>
+<div class='title'>Info</div>
+<div class='content'>
+<p>Using Mac terminal or Windows Powershell, you can <code>ssh</code> to ugrad machines as follows:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="fu">ssh</span> USERNAME@ugrad5.cs.jhu.edu</a></code></pre></div>
+<p>where <em>USERNAME</em> is replaced by your actual cs user name. Also, you can replace 5 by <em>x</em> or any number between <em>1</em> and <em>12</em>.</p>
+</div>
+</div>
+If your machine is running Windows, you will use <a href="https://www.putty.org/" target="_blank">PuTTy</a> or ssh using Windows Powershell to connect.
+
+<div class='admonition caution'>
+<div class='title'>Caution</div>
+<div class='content'>
+<p>You are advised to download and use PUTTY if you are a Windows user. Directly "sshing" into ugrad machines via Windows Powershell has caused issues with keyboard layouts.</p>
+</div>
+</div>
+
+Once logged in, if you haven't since getting your account info, run the `passwd` command to change the given password for your account.
+
+### Part 2
+
+We will now configure `git` within your ugrad account, from the home directory:
 
 **1.**	Type the command: 
 
@@ -65,15 +89,15 @@ This will make it so that you don't have to keep retyping your password every ti
 <div class='admonition info'>
 <div class='title'>Info</div>
 <div class='content'>
-<p>Note: If you have a Mac you might want to do this in your Terminal later if you want to keep a local copy of your git repo there too.  If you're on Windows, you can do the same thing through Git Bash.</p>
+<p>Note: If you have a Mac you might want to also do this in your Terminal later if you want to keep a local copy of your git repo there too.  If you're on Windows, you can do the same thing through Git Bash.</p>
 </div>
 </div>
-
-### Part 2
-
-Configure either a GitHub Authentication Token (recommended) or setup a GitHub SSH key.  Instructions are available [here](../resources/github-ssh)
 
 ### Part 3
+
+Configure either a GitHub Authentication Token (recommended) or setup a GitHub SSH key.  Instructions are available [here](../resources/github-ssh).
+
+### Part 4
 Set up your own personal git repository:
 
 **1.**	After completing the form from Exercise 1, you should have received (and accepted) an invitation email to join the course Github organization. When you login to your Github, you should be able to see personal repo with the name `YEAR-TERM-student-JHED` where `YEAR` and `TERM` correspond to this semester and `JHED` is your actual JHED name. This will serve as your private space from here on
@@ -108,7 +132,7 @@ you should use the <code>https</code> Github URL, not the <code>ssh</code> Githu
 </div>
 </div>
 
-### Part 4
+### Part 5
 Create a file on ugrad and add it to the repository:
 
 **1.**	Use `cd` to move into your `YEAR-TERM-student-JHED` folder (your cloned copy of your repository).  Use `pwd` to check that you are in the right place.
@@ -146,7 +170,7 @@ Now, push your changes using `git push`. Finally, check your git log again to se
 
 **13.**	In your web browser, investigate what has changed in the remote repo on github.com.
 
-### Part 5
+### Part 6
 Prepare your files as if you were asked to submit them to Gradescope for a homework assignment (but you don’t need to submit them today) - consider this a trial run for turning in an assignment later on. Suppose that an assignment asks you to turn in your new _README_ file, along with a copy of your git log, to show how you have been using git during the assignment.
 
 **1.**	Save a copy of your git log to a text file by typing the command `git log > gitlog.txt`.
@@ -178,12 +202,9 @@ Prepare your files as if you were asked to submit them to Gradescope for a homew
 <div class='admonition info'>
 <div class='title'>Windows Users</div>
 <div class='content'>
-<p>You will need <code>pscp</code> here which should have been installed already automatically when you installed Putty. Copy your <em>.zip</em> file from ugrad to your local computer using <code>pscp &lt;source&gt; &lt;destination&gt;</code>. For example, you could open a Command Prompt window or Powershell and type <code>pscp css22006@ugradx.cs.jhu.edu:ex03.zip .</code>.  If you're using <strong>Git Bash</strong> instead, you can run <code>scp</code> instead of <code>pscp</code>.  For Windows where WinSCP has been installed: connect to ugradx using the WinSCP interface and drag the <em>ex03.zip</em> file from the ugradx side to your local computer's side.</p>
+<p>You will need <code>pscp</code> here which should have been installed already automatically when you installed PuTTy. Copy your <em>.zip</em> file from ugrad to your local computer using <code>pscp &lt;source&gt; &lt;destination&gt;</code>. For example, you could open a Command Prompt window or Powershell and type <code>pscp css22006@ugradx.cs.jhu.edu:ex03.zip .</code>.  If you're using <strong>Git Bash</strong> instead, you can run <code>scp</code> instead of <code>pscp</code>.  For Windows where WinSCP has been installed: connect to ugradx using the WinSCP interface and drag the <em>ex03.zip</em> file from the ugradx side to your local computer's side.</p>
 </div>
 </div>
 
 **7.**	If you wanted to submit this on Gradescope (which we are not actually doing today), you now have a copy of your _.zip_ file on your local computer, and could launch a web browser that will allow you to select the file you wish to upload to Gradescope.
-
-### Part 6 (if time permits)
-Work through at least one _emacs_ (or _vim_) tutorial on the course [Resources page](../resources.html). NOTE: whether or not you get to work on it during today's exercise, you are expected to complete a tutorial for one of the two editors before you come to our next meeting. In fact, we recommend completing several; the more times you practice the commands, the quicker you will learn them.
 

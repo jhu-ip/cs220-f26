@@ -7,7 +7,7 @@ title: Exercise 3-B
 <div class='admonition info'>
 <div class='title'>Info</div>
 <div class='content'>
-<p>This is an in-class exercise. An exercise page like this one will contain a brief description but is intended to be supplemented by discussion during our meeting time. Complete the exercise to the best of your ability in the time given. Feel free to talk with other students as you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, but you need not hand it in. You are encouraged to work at home to complete what you do not get through today.</p>
+<p>This is an in-class exercise. An exercise page like this one will contain a brief description but is intended to be supplemented by discussion during our meeting time. Complete the exercise to the best of your ability in the time given. Feel free to talk with other students as you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, minimally 50%. You are encouraged to work at home to complete what you do not get through today.</p>
 </div>
 </div>
 ## Learning Objectives
@@ -24,14 +24,14 @@ title: Exercise 3-B
 </div>
 
 ### Part 1
-To begin (if you have not already done so), log into the ugrad system using your ugrad account name and password.  You can do so by logging in to `ugradx.cs.jhu.edu`, or any machine `ugrad1.cs.jhu.edu`, `ugrad2.cs.jhu.edu`, … `ugrad24.cs.jhu.edu`. On a Mac or Unix/Linux machine, you will log in to ugrad from the command line using `ssh`.
+To begin (if you have not already done so), log into the ugrad system using your ugrad account name and (new) password.  You can do so by logging in to `ugradx.cs.jhu.edu`, or any machine `ugrad1.cs.jhu.edu`, `ugrad2.cs.jhu.edu`, … `ugrad12.cs.jhu.edu`. On a Mac or Unix/Linux machine, you will log into ugrad from the command line using `ssh`.
 
 <div class='admonition info'>
 <div class='title'>Info</div>
 <div class='content'>
 <p>Using Mac terminal or Windows Powershell, you can <code>ssh</code> to ugrad machines as follows:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="fu">ssh</span> USERNAME@ugrad5.cs.jhu.edu</a></code></pre></div>
-<p>where <em>USERNAME</em> is replaced by your actual cs user name. Also, you can replace 5 by <em>x</em> or any number between <em>1</em> and <em>24</em>.</p>
+<p>where <em>USERNAME</em> is replaced by your actual cs user name. Also, you can replace 5 by <em>x</em> or any number between <em>1</em> and <em>12</em>.</p>
 </div>
 </div>
 If your machine is running Windows, you will use <a href="https://www.putty.org/" target="_blank">PuTTy</a> or ssh using Windows Powershell to connect.
@@ -48,7 +48,7 @@ First, create a copy (clone) of the public repository for the class by taking th
 
 1.	In your ugrad account, type `cd ~` to make sure you are in your home directory.
 
-2.	If you have not already done so, use **git** to clone the class example repository by typing the following, replacing the `xxx` with the appropriate name for your current semester (e.g., in the Fall 2025 term `xxx` would be replaced with `f25`, in the Spring 2026 term it would be replaced with `sp26`, etc.): 
+2.	If you have not already done so, use **git** to clone the class example repository by typing the following, replacing the `xxx` with the appropriate name for your current semester (e.g., in the Fall 2026 term `xxx` would be replaced with `f26`, in the Spring 2027 term it would be replaced with `sp27`, etc.): 
 ```bash
 git clone https://github.com/jhu-ip/cs220-xxx-public.git
 ```
@@ -114,4 +114,8 @@ Wrap up the exercise by cleaning up your files, and logging out of the ugrad sys
 	</div>
 
 3.	Finally, log out of the ugrad system by typing `exit`.
+
+### Part 6 (if time permits)
+
+Work through at least one _emacs_ (or _vim_) tutorial on the course [Resources page](../resources.html). NOTE: whether or not you get to work on it during today's exercise, you are expected to complete a tutorial for one of the two editors before you come to our next meeting. In fact, we recommend completing several; the more times you practice the commands, the quicker you will learn them.
 
