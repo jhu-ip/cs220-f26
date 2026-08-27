@@ -1,10 +1,10 @@
 # 601.220 Intermediate Programming at JHU
 
 This is the public website Github repository for 601.220 Intermediate Programming,
-Fall 2025, at [Johns Hopkins University](https://www.jhu.edu).
+Fall 2026, at [Johns Hopkins University](https://www.jhu.edu).
 
 The actual website (generated from the contents of this repository) is
-<https://jhu-ip.github.io/cs220-f25/>.
+<https://jhu-ip.github.io/cs220-f26/>.
 
 ## Editing and updating the course website
 
@@ -17,14 +17,18 @@ All of the webpages are written in Markdown.
 
 ### Installing Jekyll
 
+You may want to first check the [Jekyll website] (https://jekyllrb.com/docs/installation/) for install instructions particular to your laptop. It will require a (recent) version of Ruby and RubyGems. The instructions below are a few years old and the versions referenced are no longer supported.
+
 The best way to install Jekyll is to first install [rbenv](https://github.com/rbenv/rbenv).
 I (DH) generally use the [Basic GitHub Checkout](https://github.com/rbenv/rbenv#basic-github-checkout)
-approach to installing rbenv.
+approach to installing rbenv, but you'll want to determine the best approach for your particular laptop.
 
 Once rbenv is installed, install [ruby-build](https://github.com/rbenv/ruby-build#readme),
 which will allow you to compile a Ruby runtime from source.
 
-Once ruby-build is installed, install Ruby 2.7.0 using the commands
+Once ruby-build is installed, install the [latest Ruby](https://www.ruby-lang.org/en/documentation/installation/) for your system.
+
+For example, you can install Ruby 2.7.0 and make it the default using the commands:
 
 ```
 rbenv install 2.7.0
@@ -51,7 +55,6 @@ export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init -)"
 ```
 
-Then, had to use other ruby versions than the above. First, switched to ruby version **2.7.8** and attempted install, then had to switch to **3.1.7** when a portion of the installation failed to advance and requested a higher version. The latter ran the jekyll installation command succesfully to completion.
 
 ### Using Jekyll for a local preview of the website
 
@@ -75,18 +78,7 @@ remotely to reflect your changes.
 
 ### Updating the Course Materials page
 
-To add information to the Course Materials page, edit [material.csv](material.csv),
-and then run the command
-
-```
-./gen_materials_page.rb > material.md
-```
-
-Hopefully, the format of `material.csv` is self-explanatory.  It may be convenient
-to open this file in a spreadsheet, and then save it as CSV.
-
-Add and commit your changes to both `material.csv` and `material.md`. (Previewing
-the changes first is probably a good idea.)
+To add information to the Course Materials page, edit the markdown file `material.md` directly. We have not used material.csv in recent years. (Refer to a prior semester or comment at the start of the file for how that was previously configured.) We comment out the weeks that are not yet ready for release as the semester progresses. Also make sure to update the `active_week_id` with the current week `id`.
 
 The file [semester.csv](semester.csv) is a "full semester" schedule of
 course material. In general, when adding one week of course material,
