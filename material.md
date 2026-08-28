@@ -16,7 +16,7 @@ Then add, commit, and push both material.csv and material.md.
 -->
 
 You can click on the header for a specific week to expand or collapse
-the materials for that week.
+the materials for that week. Note that all weeks will be marked as "[DRAFT]" and subject to changes until materials are finalized the prior week. 
 
 <button type="button" id="week_1_toggle" class="week_control_button">Week 1 (31-Aug to 4-Sep)</button>
 <div id="week_1" class="collapsible">
@@ -67,7 +67,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_2_toggle" class="week_control_button">Week 2 (7-Sep to 11-Sep)</button>
+<button type="button" id="week_2_toggle" class="week_control_button">Week 2 (7-Sep to 11-Sep) [DRAFT]</button>
 <div id="week_2" class="collapsible">
 <table>
   <thead>
@@ -115,7 +115,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (14-Sep to 18-Sep)</button>
+<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (14-Sep to 18-Sep) [DRAFT]</button>
 <div id="week_3" class="collapsible">
 <table>
   <thead>
@@ -167,7 +167,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (21-Sep to 25-Sep)</button>
+<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (21-Sep to 25-Sep) [DRAFT]</button>
 <div id="week_4" class="collapsible">
 <table>
   <thead>
@@ -219,7 +219,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_5_toggle" class="week_control_button">Week 5 (28-Sep to 2-Oct)</button>
+<button type="button" id="week_5_toggle" class="week_control_button">Week 5 (28-Sep to 2-Oct) [DRAFT]</button>
 <div id="week_5" class="collapsible">
 <table>
   <thead>
@@ -268,7 +268,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_6_toggle" class="week_control_button">Week 6 (5-Oct to 9-Oct)</button>
+<button type="button" id="week_6_toggle" class="week_control_button">Week 6 (5-Oct to 9-Oct) [DRAFT]</button>
 <div id="week_6" class="collapsible">
 <table>
   <thead>
@@ -314,7 +314,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_7_toggle" class="week_control_button">Week 7 (12-Oct to 16-Oct)</button>
+<button type="button" id="week_7_toggle" class="week_control_button">Week 7 (12-Oct to 16-Oct) [DRAFT]</button>
 <div id="week_7" class="collapsible">
 <table>
   <thead>
@@ -360,7 +360,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_8_toggle" class="week_control_button">Week 8 (19-Oct to 23-Oct)</button>
+<button type="button" id="week_8_toggle" class="week_control_button">Week 8 (19-Oct to 23-Oct) [DRAFT]</button>
 <div id="week_8" class="collapsible">
 <table>
   <thead>
@@ -408,7 +408,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_9_toggle" class="week_control_button">Week 9 (26-Oct to 30-Oct)</button>
+<button type="button" id="week_9_toggle" class="week_control_button">Week 9 (26-Oct to 30-Oct) [DRAFT]</button>
 <div id="week_9" class="collapsible">
 <table>
   <thead>
@@ -454,7 +454,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_10_toggle" class="week_control_button">Week 10 (2-Nov to 6-Nov)</button>
+<button type="button" id="week_10_toggle" class="week_control_button">Week 10 (2-Nov to 6-Nov) [DRAFT]</button>
 <div id="week_10" class="collapsible">
 <table>
   <thead>
@@ -501,7 +501,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_11_toggle" class="week_control_button">Week 11 (9-Nov to 13-Nov)</button>
+<button type="button" id="week_11_toggle" class="week_control_button">Week 11 (9-Nov to 13-Nov) [DRAFT]</button>
 <div id="week_11" class="collapsible">
 <table>
   <thead>
@@ -548,7 +548,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_12_toggle" class="week_control_button">Week 12 (16-Nov to 20-Nov)</button>
+<button type="button" id="week_12_toggle" class="week_control_button">Week 12 (16-Nov to 20-Nov) [DRAFT]</button>
 <div id="week_12" class="collapsible">
 <table>
   <thead>
@@ -603,7 +603,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_13_toggle" class="week_control_button">Week 13 (30-Nov to 4-Dec)</button>
+<button type="button" id="week_13_toggle" class="week_control_button">Week 13 (30-Nov to 4-Dec) [DRAFT]</button>
 <div id="week_13" class="collapsible">
 <table>
   <thead>
@@ -649,7 +649,7 @@ the materials for that week.
 </table>
 </div>
 
-<button type="button" id="week_14_toggle" class="week_control_button">Week 14 (7-Dec to 11-Dec)</button>
+<button type="button" id="week_14_toggle" class="week_control_button">Week 14 (7-Dec to 11-Dec) [DRAFT]</button>
 <div id="week_14" class="collapsible">
 <table>
   <thead>
