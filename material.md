@@ -16,7 +16,7 @@ Then add, commit, and push both material.csv and material.md.
 -->
 
 You can click on the header for a specific week to expand or collapse
-the materials for that week. Note that all weeks will be marked as "[DRAFT]" and subject to changes until materials are finalized the prior week. 
+the materials for that week. Note that all weeks will be marked as "[DRAFT]" and are subject to changes until materials are finalized the prior week. 
 
 <button type="button" id="week_1_toggle" class="week_control_button">Week 1 (31-Aug to 4-Sep)</button>
 <div id="week_1" class="collapsible">
