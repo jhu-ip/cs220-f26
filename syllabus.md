@@ -89,7 +89,7 @@ Will be listed on the main course website Staff page.
 
 The following sites will be used heavily during the course:
 
--   This course website (linked from the front page of the course Canvas.)
+-   This [course main website](https://jhu-ip.github.io/cs220-f26/), also linked from Canvas.
 
 -   Piazza will serve as our primary communication channel. Access through Canvas, and you can then link any prior accounts to your JHU account.
 
@@ -279,7 +279,7 @@ otherwise indicated on the course Piazza site). Non-compiling code will
 earn a score of zero, so students are strongly encouraged to
 double-check that all submitted code fully compiles with no errors or
 warnings in the standard course compilation environment. We will
-only accept late submission in a 12-hour grace period immediately following each deadline. In other words, 11am after the due date (Baltimore time) is a non-negotiable hard deadline for all homework and project submissions. There is no penalty for submitting during the 12-hour grace period. 
+only accept late submission in a 12-hour grace period immediately following each deadline. In other words, 11am one day after the stated due date (Baltimore time) is a non-negotiable hard deadline for all homework and project submissions. There is no penalty for submitting during the 12-hour grace period. 
 
 Given this policy, please plan to get your homework done and turned
 in by each 11pm deadline so that if you encounter any last-minute delays, it will not
@@ -325,8 +325,8 @@ Students who cannot make a scheduled code review for an unavoidable reason must 
 -   10% - active in-class particpation
     - <emph>You must complete 50% of each session's exercises to earn attendance credit for that day, and earn 85% attendance credits to receive full attendance points (i.e., your attendance/participation percentage will be divided by 0.85 and then capped at 100%.) This means you can earn the full 10% of participation even if missing or not completing 15% of the scheduled class sessions.</emph>
 
--   18% - individual coding homework (4.5 total; due dates vary; will be
-    listed on Canvas)
+-   18% - individual coding homework (4.5 total; due dates vary & will be
+    listed on the main course website)
 
 -   30% - midterm exam (in class, 19 October)
 
@@ -334,7 +334,7 @@ Students who cannot make a scheduled code review for an unavoidable reason must 
 
 -   6% - final coding project (in teams, due early December)
 
--   30% - final exam (tbd)
+-   30% - final exam (Friday 18 December, 9a-12p)
 
 All scores and grading feedback on your homework and project
 submissions, as well as exams, will be available via Gradescope. Please
@@ -398,29 +398,29 @@ Academic honesty is required in all work you submit to be graded. You must solve
 > device. [Signed and dated]". Your course instructors will let you know
 > where to find copies of old exams, if they are available.
 
-Report any violations you witness to the instructor. You can also contact:
+In summary, the strength of the university depends on academic and personal integrity. In this course, you must be honest and truthful. Ethical violations include cheating on exams, plagiarism, reuse of assignments, improper use of the Internet and electronic devices, unauthorized collaboration, alteration of graded assignments, forgery and falsification, lying, facilitating academic dishonesty, and unfair competition. Report any violations you witness to the instructor. You can also contact:
 
-* For undergraduates: the associate dean of student conduct (or designee) by calling the Office of the Dean of Student Life at 410-516-8208 or via email at studentconduct@jhu.edu
+* For undergraduates: The Office of Student Conduct at 410-516-2509 or via email at studentconduct@jhu.edu
 * For KSAS Graduate Students: rseitz5@jh.edu
 * For WSE Graduate Students: christinekavanagh@jhu.edu
 
 You can find more information about university misconduct policies on
 the web at these sites:
 
-* For undergraduates: <https://studentaffairs.jhu.edu/policies-guidelines/undergrad-ethics/>, <http://e-catalog.jhu.edu/undergrad-students/student-life-policies/>
-* For graduate students: <https://homewoodgrad.jhu.edu/academics/policies/>, <http://e-catalog.jhu.edu/grad-students/graduate-specific-policies/>
+* For undergraduates: <https://studentaffairs.jhu.edu/policies-guidelines/undergrad-ethics/>
+* For graduate students: <https://homewoodgrad.jhu.edu/academics/policies/>
 
 **Mental Health Statement**
 
 Many students struggle at times with stress and mental health concerns. [Johns Hopkins University Mental Health Services](https://wellbeing.jhu.edu/MentalHealthServices/) has a range of services to support students with their mental health.  Beyond clinical services, JHU also has many resources available to support overall [student well-being](https://wellbeing.jhu.edu/).  
 
-For 24/7 behavioral health support, The Johns Hopkins University Behavioral Health Crisis Support Team (BHCST) pairs experienced, compassionate crisis clinicians with specially trained public safety officers on every shift on and around the Homewood campus, seven days a week. The BHCST will provide immediate assistance to those who need it and link individuals in crisis to ongoing support services in the days and weeks that follow. BHCST can be reached directly at 410-516-9355 or by calling Public Safety, 410-516-4600 or 7777, and asking to be connected to a BHCST clinician.
+For **24/7 behavioral health support**, The Johns Hopkins University Behavioral Health Crisis Support Team (BHCST) pairs experienced, compassionate crisis clinicians with specially trained public safety officers on every shift on and around the Homewood campus, seven days a week. The BHCST will provide immediate assistance to those who need it and link individuals in crisis to ongoing support services in the days and weeks that follow. BHCST can be reached directly at 410-516-9355 or by calling Public Safety, 410-516-4600 or 7777, and asking to be connected to a BHCST clinician.
 
 If you have concerns about a yourself or another student, please contact:
 * For [emergencies](https://publicsafety.jhu.edu) (threat to self or others): Public Safety 410-516-7777 or 911
 * For 24/7 mental health support (mobile, access line and virtual): BHCST at 410-516-9355
-* For undergraduate students who may benefit from Case Management services (1:1 support, coordination and connection to relevant campus resources): Student Outreach & Support at 410-516-7857 or  studentoutreach@jhu.edu
-* For KSAS Graduate Students: [Renee Eastwood](mailto:rseitz5@jhu.edu), Assistant Dean for Graduate and Postdoctoral Academic and Student Affairs
+* For undergraduate students who may benefit from Case Management services (1:1 support, coordination and connection to relevant campus resources): Student Outreach & Support at 410-516-7857 or studentoutreach@jhu.edu
+* For KSAS Graduate Students: [Jasmine Harris](mailto:harris@jhu.edu), Director of Student Services - Graduate and Postdoctoral Affairs
 * For WSE Graduate Students: [Megan Barrett](mailto:mmcgui15@jh.edu), Assistant Dean for Engineering Student Affairs
 
 **Students with Disabilities – Accommodations and Accessibility**
@@ -436,42 +436,13 @@ studentdisabilityservices@jhu.edu.
 
 **Inclusivity**
 
-Johns Hopkins University is committed to creating a classroom
-environment that values the diversity of experiences and perspectives
-that each student brings. Everyone deserves to be treated with dignity
-and respect. Fostering an inclusive climate is important because
-research and experience show that students who interact with peers who
-are different from themselves learn new things and experience tangible
-educational outcomes. We invite you to help create a welcoming,
-vibrant and intellectually engaging classroom climate. Note that you
-should expect to be challenged intellectually by the instructor, the
-TAs, and your peers, and at times this may feel uncomfortable. Indeed,
-growth often requires being pushed beyond your comfort zone. However,
-at no time in this learning process should someone be singled out or
-treated unequally based on any aspect of their identity (visible or
-invisible).
+Johns Hopkins University is committed to creating a classroom environment that values the diversity of experiences and perspectives that each student brings. Everyone deserves to be treated with dignity and respect. Fostering an inclusive climate is important because research and experience show that students who interact with peers who are different from themselves learn new things and experience tangible educational outcomes. We invite you to help create a welcoming, vibrant and intellectually engaging classroom climate. Note that you should expect to be challenged intellectually by the instructor, the TAs, and your peers, and at times this may feel uncomfortable. Indeed, growth often requires being pushed beyond your comfort zone. However, at no time in this learning process should someone be singled out or treated unequally based on any aspect of their identity (visible or invisible).
 
-If you ever have concerns in this course about harassment,
-discrimination, or any unequal treatment, or if you seek
-accommodations or resources, please reach out to your instructor or
-the TAs, who will take your communication seriously and seek mutually
-acceptable resolutions and accommodations. Reporting will never impact
-your course grade. You may also share concerns with the department
-head, the [Director of Undergraduate
-Studies](https://cs.jhu.edu/~joanne), the WSE Associate Dean of
-Outreach and Belonging (Darlene Saporu, dsaporu@jhu.edu), the KSAS
-Assistant Dean for Diversity and Inclusion (Araceli Frias,
-afrias3@jhu.edu) or the Office of Institutional Equity (oie@jhu.edu).
+If you ever have concerns in this course about harassment, discrimination, or any unequal treatment, or if you seek accommodations or resources, please reach out to your instructor or the TAs, who will take your communication seriously and seek mutually acceptable resolutions and accommodations. Reporting will never impact your course grade. You may also share concerns with the department chair, the [Director of Undergraduate Studies](https://www.cs.jhu.edu/about/department-leadership/), the WSE Associate Dean of Outreach and Belonging (Darlene Saporu, dsaporu1@jhu.edu), the KSAS Assistant Dean for Diversity and Inclusion (Araceli Frias, afrias3@jhu.edu) or the Office of Institutional Equity (oie@jhu.edu).
 
 In handling reports, people will protect your privacy as much as possible, but faculty and staff are required to officially report information for some cases (e.g., sexual harassment).
 
-*Family accommodation policy:* You are welcome to bring a family member
-to class on occasional days when your responsibilities require it (for
-example, if emergency childcare is unavailable, or for the health
-needs of a relative). In fact, you may see my children in class on
-days when their school is closed. Please be sensitive to the classroom
-environment, and if your family member becomes uncomfortably
-disruptive, you may leave the classroom and return as needed.
+*Family accommodation policy:* You are welcome to bring a family member to class on occasional days when your responsibilities require it (for example, if emergency childcare is unavailable, or for the health needs of a relative). Please be sensitive to the classroom environment, and if your family member becomes uncomfortably disruptive, you may leave the classroom and return as needed.
 
 **Deadlines for Adding, Dropping and Withdrawing from Courses**
 
@@ -490,7 +461,6 @@ All programs are free to students.  Please see <https://academicsupport.jhu.edu>
 * PILOT Learning---Peer-Led Team Learning
     * Students are organized into small study teams who meet weekly to collaborate on faculty-developed problems-sets.  Students work together as a team to solve problems.
     * A trained student leader acts as captain and facilitates the weekly meetings using various strategies to foster a collaborative learning environment.
-    * Contact: Jenna Hoffman <jhoffm71@jhu.edu>
     * Instagram: @jhu_academicsupport
 * [Learning Den Tutoring Program](https://academicsupport.jhu.edu/learning-den/) - Small Group Tutoring 
     * Drop-in tutoring services for a variety of courses (check website for schedule)
@@ -498,7 +468,6 @@ All programs are free to students.  Please see <https://academicsupport.jhu.edu>
         - Review and strengthening of subject-specific material knowledge
         - Assist with homework-like problems
         - Course-specific study skills and exam preparation
-    * Contact: Dr. Joseph Cunningham <jcunni30@jh.edu>
     * Instagram: @jhu_academicsupport
 * [The Study Consulting Program](https://academicsupport.jhu.edu/study-consulting/)
     * Students work one-on-one with a study consultant on a weekly basis to set academic goals and develop customized strategies for success. Areas addressed include but are not limited to:
@@ -506,12 +475,10 @@ All programs are free to students.  Please see <https://academicsupport.jhu.edu>
         - Note taking and test preparation
         - Mastering large amounts of information
         - Organization and accountability
-    * Contact: Bridgette Vixamar <bvixamar@jhu.edu>
     * Instagram: @jhustudyconsulting
-* The Writing Center
+* [The Writing Center](https://krieger.jhu.edu/writingcenter/)
   * The Johns Hopkins Writing Center (Gilman 230) provides free writing support to undergraduate and graduate students in degree programs on the Homewood campus. We believe that every writer benefits from supportive and generous interaction with a knowledgeable peer.  * We work individually with writers on all writing projects at any stage of the writing process
   * We offer both online and face-to-face appointments. 
   * Learn more about us and our services or schedule an appointment by visiting our website. 
-  * Contact: Dr. Deirdre Vinyard, Director <dvinyar1@jhu.edu>
 
 
