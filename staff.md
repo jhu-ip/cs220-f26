@@ -58,9 +58,9 @@ Mark Qu & Kyle Klamka
 ## Course Assistants
 
 * Sec 01 Darvish (10:30-11:45a): Derrick, Anna, Ming
-* Sec 02 Darvish (12-1:15p): Matthew, Akshaya, Andy
+* Sec 02 Darvish (12-1:15p): Matthew, Andy, Akshaya (MF), Daniel (W)
 * Sec 03 Simari (1:30-2:45p): Ellen, James, Ariel
-* Sec 04 Selinski (3:00-4:15p): Crystal, Allison, Daniel
+* Sec 04 Selinski (3:00-4:15p): Crystal, Allison, Daniel (MW), Akshaya (F)
 
 Office Hours Schedule for all TAs/CAs (starting Tue 9/8): tbd
 # [CA Office Hours Schedule]()
