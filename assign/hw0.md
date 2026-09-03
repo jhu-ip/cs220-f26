@@ -59,7 +59,7 @@ At the top of each source file, add two comment lines that provide your anonymou
 
 ```c
 // J3V6G9
-// August 29, 2025
+// September 5, 2026
 ```
 
 Compile and execute each of the three programs and ensure that they give the output exactly as shown. Finally, add all three source files to your git repository, commit them with an appropriate message, and push.
