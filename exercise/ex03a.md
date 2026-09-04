@@ -40,7 +40,7 @@ title: Exercise 3-A
 
 ### Part 1
 
-Log into the ugrad system. You can do so by logging in to `ugradx.cs.jhu.edu`, or any machine `ugrad1.cs.jhu.edu`, `ugrad2.cs.jhu.edu`, … `ugrad12.cs.jhu.edu`. On a Mac or Unix/Linux machine, you will log into ugrad from the command line (Terminal app) using `ssh`.
+Log into the ugrad system. You can do so by logging in to `ugradx.cs.jhu.edu`, `ugradv.cs.jhu.edu`, `ugradz.cs.jhu.edu`, or any machine `ugrad1.cs.jhu.edu`, `ugrad2.cs.jhu.edu`, … `ugrad12.cs.jhu.edu`. On a Mac or Unix/Linux machine, you will log into ugrad from the command line (Terminal app) using `ssh`.
 
 <div class='admonition info'>
 <div class='title'>Info</div>
