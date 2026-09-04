@@ -50,7 +50,7 @@ Log into the ugrad system. You can do so by logging in to `ugradx.cs.jhu.edu`, `
 <p>where <em>USERNAME</em> is replaced by your actual cs user name. Also, you can replace 5 by <em>x</em> or any number between <em>1</em> and <em>12</em>.</p>
 </div>
 </div>
-If your machine is running Windows, you will use <a href="https://www.putty.org/" target="_blank">PuTTy</a> or ssh using Windows Powershell to connect.
+If your machine is running Windows, you will use <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html" target="_blank">PuTTy</a> or ssh using Windows Powershell to connect.
 
 <div class='admonition caution'>
 <div class='title'>Caution</div>
