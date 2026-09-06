@@ -8,11 +8,13 @@ title: C Input/Output
 
 <p>See the list of functions on this 
   <a href="http://www.cplusplus.com/reference/cstdio/">reference website</a>.  
+</p>
 
 <h4>Standard input/output</h4>
 
 <p>We must <code>#include &lt;stdio.h&gt;</code> to use this library.  The standard
      (built-in) streams are defined there: 
+</p>
 <ul>
   <li><code>stdin</code>: keyboard or input redirect input
 </li>  <li><code>stdout</code>: standard  output (to console by default)
@@ -24,7 +26,7 @@ title: C Input/Output
 
 <p>
 Prerequisite: <code>#include &lt;stdio.h&gt;</code> in header to access library functions; <a href="http://www.cplusplus.com/reference/cstdio/">Reference for <code>stdio.h</code></a>
-
+</p>
   <ul>
    	<li> <code>putchar('d')</code> to output characters
 </li>	<li> <code>puts("some string")</code> to output strings
@@ -72,7 +74,8 @@ Prerequisite: <code>#include &lt;stdio.h&gt;</code> in header to access library 
     the memory address where the array starts. </p>
 </li>  </ul>
 
-Here is a list of the most common conversion specifications:<pre>
+<p>Here is a list of the most common conversion specifications:</p>
+<pre>
     %d integer  
     %ld long 
     %c char
@@ -90,10 +93,10 @@ There are also many fancy input format options, see <a href="http://www.cplusplu
 </li></ul>
 
 <p>Here is a short example:
+</p>
 ```c
 #include &lt;stdio.h&gt;
-int main()
-{
+int main() {
     int number;
     float x;
     double y;

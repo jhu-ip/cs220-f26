@@ -8,7 +8,7 @@ reference solutions:
   3. 0 || true && 3 -> false || true -> true
   4. exit the current block, skipping to the enclosing "}"
   5. skip to the end of the current iteration
-  6. [UPDATED] 100 080 060 040 020
+  6. [UPDATED] 100 == 100\n== 80\n060 40 == 40\n== 20
   7. Trick question - it is no longer in scope; trying to access it would cause a compiler error (assuming no other `i` variables exist). Last value during loop execution was 0.
   8. `int i = 100; while (i > 0) { printf("%03d ", i); i -= 20; }`
   9. first; 24 / 3 -> 8, 'c' > 'D' -> true (1), ++num -> 7; bool result is true; num is 1; compiler generates warning - using the result of an assignment as a condition without parentheses [-Wparentheses]
@@ -31,7 +31,12 @@ reference solutions:
 
 6. What is the output of this code segment?
 ```c
-for (int i = 100; i > 0; i -= 20) printf("%03d ", i);
+for (int i = 100; i > 0; i -= 20)
+   switch (i % 3) {
+     case 1: printf("%d ", i);
+     case 2: printf("== %2d\n", i); break;
+     default: printf("%03d ", i); break;
+   }
 ```
 <br />  <br /> <br />
 
