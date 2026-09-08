@@ -10,7 +10,7 @@ reference solutions:
   5. skip to the end of the current iteration
   6. [UPDATED] 100 == 100\n== 80\n060 40 == 40\n== 20
   7. Trick question - it is no longer in scope; trying to access it would cause a compiler error (assuming no other `i` variables exist). Last value during loop execution was 0.
-  8. `int i = 100; while (i > 0) { printf("%03d ", i); i -= 20; }`
+  8. `int i = 100; while (i > 0) { <for loop body> i -= 20; }`
   9. first; 24 / 3 -> 8, 'c' > 'D' -> true (1), ++num -> 7; bool result is true; num is 1; compiler generates warning - using the result of an assignment as a condition without parentheses [-Wparentheses]
 ---
 
