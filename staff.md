@@ -28,7 +28,7 @@ show_in_nav: false
         <span class="name_and_role">Ali Darvish</span><br>
         Department of Computer Science<br>
         Email: <a href="mailto:darvish@cs.jhu.edu">darvish@cs.jhu.edu</a><br>
-        Office hours: Thu 1-3pm @ https://wse.zoom.us/s/5158173954 or by appointment<br>
+        Office hours: Thu 1-3pm @ <a href="https://wse.zoom.us/s/5158173954">Zoom</a> or by appointment<br>
     </div>
 </div>
 
