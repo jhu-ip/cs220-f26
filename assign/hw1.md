@@ -375,6 +375,12 @@ consistently styled, and documented as follows:
 
 For this homework, since declaring functions has not yet been covered in class,  you are not required to write your own helper functions; i.e. you can have your entire program under the main function. However, if you would like to declare your own functions you are permitted (and encouraged) to do so.
 
+### Code Reviews and Homework Assistance
+
+Remember that you will be required to meet with a staff member to review the code you submit for this assignment, in the week following the deadline. All initial reviews will be conducted in person, in MD310 during scheduled staff hours. [We will provide scheduling/sign-up instructions later.] During a code review you will be asked to explain various parts of your code, your overall approach to the solution and testing, and problems encountered. This all means that **you are fully responsible for understanding all the code in your submission**.
+
+Please use staff office hours as your main source of help when completing assignments. If you do use outside sources, be prepared to explain any code that you did not personally generate. Also remember that while peer collaboration is encouraged during in-class exercises, it is not permitted on individual assignments.
+
 ### Submission
 
 Create a *.zip* file named *hw1.zip* which contains only **distance.c**
