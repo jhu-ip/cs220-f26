@@ -11,9 +11,9 @@ Unless mentioned otherwise, **assignments and projects are due at 11pm** Baltimo
 Assignment/Exam | Posted | Due Date
 --------------- | ------ | ----------
 [Homework 0](assign/hw0.html) | Fri Sep 4 | Fri Sep 11
+[Homework 1](assign/hw1.html) | Fri Sep 11 | Fri Sep 18
 
 <!--
-[Homework 1](assign/hw1.html) | Fri Jan 30 | Fri Feb 6
 [Homework 2](https://www.gradescope.com/courses/1222412/assignments/7610571/) | Fri Feb 6 | Fri Feb 13
 [Homework 3](assign/hw3.html) | Fri Feb 13 | Fri Feb 20
 [Homework 4](https://www.gradescope.com/courses/1222412/assignments/7702221/) | Fri Feb 20 | Fri Feb 27

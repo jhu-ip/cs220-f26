@@ -43,5 +43,6 @@ well. You must join the Gradescope course page through Canvas.
 
 ## News
 
+* **September 11** — [HW1](assign/hw1) posted!
 * **September 3** — [HW0](assign/hw0) posted!
 * **August 31** — Welcome to Intermediate Programming! Check out Week 1 material under the "Course Material" tab.
