@@ -115,7 +115,7 @@ the materials for that week. Note that all weeks will be marked as "[DRAFT]" and
 </table>
 </div>
 
-<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (14-Sep to 18-Sep) [DRAFT]</button>
+<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (14-Sep to 18-Sep)</button>
 <div id="week_3" class="collapsible">
 <table>
   <thead>
