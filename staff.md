@@ -13,7 +13,7 @@ show_in_nav: false
 
 
 <div class="card">
-    <img alt="Joanne photo" src="{{site.baseurl}}/img/staffpix/joanne.png">
+    <img alt="Joanne photo" src="{{site.baseurl}}/img/staffpix/joanne2026.png">
     <div class="details">
         <span class="name_and_role">Joanne Selinski</span><br>
         Department of Computer Science<br>
@@ -62,5 +62,14 @@ Mark Qu & Kyle Klamka
 * Sec 03 Simari (1:30-2:45p): Ellen, James, Ariel
 * Sec 04 Selinski (3:00-4:15p): Crystal, Allison, Daniel (MW), Akshaya (F)
 
-Office Hours Schedule for all TAs/CAs (starting Tue 9/8): tbd
-# [CA Office Hours Schedule]()
+# CA Office Hours Schedule
+
+Office Hours Schedule for all TAs/CAs -- held in person in Maryland 310:
+
+* Mondays 4:30-7:30p
+* Tuesdays 1-7p
+* Wednesdays 9-10a, 4:30-7:30p
+* Thursdays 9:30-11:30a, 3-6:30p
+* Fridays 9-10a
+* Saturdays 5-7p
+* Sundays 6-8p
