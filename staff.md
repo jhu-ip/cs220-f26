@@ -68,8 +68,8 @@ Office Hours Schedule for all TAs/CAs -- held in person in Maryland 310:
 
 * Mondays 4:30-7:30p
 * Tuesdays 1-7p
-* Wednesdays 9-10a, 4:30-7:30p
-* Thursdays 9:30-11:30a, 3-6:30p
+* Wednesdays 9-10a, 4:30-7p
+* Thursdays 9:30-11:30a, 3-7p
 * Fridays 9-10a
 * Saturdays 5-7p
 * Sundays 6-8p
