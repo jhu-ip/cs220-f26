@@ -13,10 +13,20 @@ reference solutions:
 ---
 
 1.	Why do we need header guards?
+<br />  <br /> <br />
+
 2.	What is the difference between compiling and linking?
+<br />  <br /> <br />
+
 3.  What compiler flag do we use to create object files and what extension do those files have?
+<br />  <br /> <br />
+
 4.  What is a `target` in a Makefile?
+<br />  <br /> <br />
+
 5.	What are the advantages of using Makefiles?
+<br />  <br /> <br />
+
 6. You are given the following two C source files where both files include the header `math_utils.h`:
 <ul>
 <li>main.c (contains the main() function)</li>
@@ -29,3 +39,5 @@ reference solutions:
 <li>Links them together into an executable called program.</li>
 <li>Supports a clean rule that removes all object files and the executable.</li>
 </ul>
+<br />  <br /> <br />
+

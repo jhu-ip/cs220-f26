@@ -18,11 +18,23 @@ reference solutions:
 ---
 
 1. How do you get the number of elements of an integer array?
+<br />  <br /> <br />
+
 2. Is the size of a string array the same as the string length?	
+<br />  <br /> <br />
+
 3. What is the difference between a function declaration and a function definition?
+<br />  <br /> <br />
+
 4. Can you have two functions with the same function name in a program?
+<br />  <br /> <br />
+
 5. How does passing an integer array to a function differ from passing a single integer variable into a function?
+<br />  <br /> <br />
+
 6. How can you make an array that is passed into a function not modifiable?
+<br />  <br /> <br />
+
 7. What is the output of the following code segment:
 ```c
 #include <stdio.h>
@@ -39,7 +51,15 @@ int main() {
     return 0;
 }
 ```
+<br />  <br /> <br />
+
 
 8. What is the down-side to recursion?
+<br />  <br /> <br />
+
 9. What happens if your recursive function does not have a base case?
+<br />  <br /> <br />
+
 10. Write both the base case and the recursive case for the function `int sum_of_digits(int n)` that returns the sum of the digits of n (n>=0).
+<br />  <br /> <br />
+
