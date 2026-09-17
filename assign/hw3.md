@@ -217,18 +217,43 @@ Here are some further hints and tips:
 
 ### Grading
 
-The 60 points for this assignment will be applied as follows (tbd):
+Two notes regarding automatic checks for programming assignments:
 
-* submission, including gitlog [4]
-* Makefile [5]
-* testing [5]
-* error handling [5]
-* file input [6]
-* function implementations [18]
-* output found word results to stdout [5]
-* output best results to file [2]
-* output grid with capitalized best word to file [5]
-* style, including appropriate use of functions (modularization) [5]
+* Passing an automatic check is not itself worth points. (There might
+  be a nominal, low point value like 0.01 associated with a check, but
+  that will not count in the end.) The checks exist to help you and
+  the graders identify obvious errors. This will be true for most of
+  the assignments; the actual grades are given manually by the
+  graders.
+
+* The automatic checks cover some of the requirements set
+  out in the assignment, but not all. There will be hidden tests that
+  test edge cases. In general, it is up to you to test your own work
+  and ensure your programs satisfy all stated requirements. Passing
+  all the automatic checks does not necessarily mean you will earn all
+  the points. It is an ethics violation for the course staff to tell
+  you what is in the hidden tests or whether you pass them before the
+  deadline, so please don't ask!
+
+
+<div class='admonition danger'>
+<div class='title'>No-compile Policy</div>
+<div class='content'>
+<p>Remember that if your final code submission does not compile, you will
+receive a zero score for the assignment.</p>
+</div>
+</div>
+
+Here are the possible grading outcomes for this coding assignment:
+
+* 4 pts - fully correct with no issues 
+* 3.5 pts - mostly correct with minor issues (edge cases, formatting, etc.) 
+* 3 pts - almost correct with 1-2 major issues 
+* 2 pts - half done 
+* 1 pt - barely started, very incomplete 
+* 0 pts - not submitted, no compile, code review not completed
+
+Please plan accordingly, and practice incremental coding and testing for best results!
 
 ### Code Reviews and Homework Assistance
 
