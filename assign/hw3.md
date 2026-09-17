@@ -10,7 +10,6 @@ title: Homework 3
 <ul>
 <li>You are expected to work individually.</li>
 <li><strong>Due: Fri Oct 2, 11pm (Baltimore time).</strong></li>
-<li><em>This assignment is worth 60 points.</em></li>
 </ul>
 </div>
 </div>
