@@ -291,10 +291,6 @@ Create a *.zip* file named *hw3.zip* which contains all the requested files ment
 </div>
 </div>
 
-Two notes regarding automatic checks for programming assignments:
-*	Passing an automatic check is not itself worth points. (There might be a nominal, low point value like 0.01 associated with a check, but that will not count in the end.) The checks exist to help you and the graders find obvious errors. This will be true for most of the assignments; the actual grades are given manually by the graders, along with comments.
-*	The automatic checks cover some of the requirements set out in the assignment, but not all. There will be hidden tests that test edge cases. In general, it is up to you to test your own work and ensure your programs satisfy all stated requirements. Passing all the automatic checks does not necessarily mean you will earn all the points. Also remember that the course staff can *not* reveal the tests or their outcomes to you. 
-
 <div class='admonition tip'>
 <div class='title'>Tips and Hints</div>
 <div class='content'>
@@ -305,19 +301,11 @@ Two notes regarding automatic checks for programming assignments:
 </div>
 </div>
 
-<div class='admonition caution'>
-<div class='title'>No-compile policy</div>
-<div class='content'>
-<br/>Remember that if your final submitted code does not compile, you will earn a zero score for the assignment.
-</div>
-</div>
-
-
 <div class='admonition tip'>
 <div class='title'>Code Styling - Style Matters!</div>
 <div class='content'>
 <br/>
-You should always make sure that your code has good style. You can look at the coding style guidelines from a course you will take later that also applies to this course: https://jhucsf.github.io/fall2025/resources/style.html In brief, you should make sure that your submission is well formed:
+You should always make sure that your code has good style. You can look at the coding style guidelines from a course you will take later that also applies to this course: https://jhucsf.github.io/fall2026/resources/style.html In brief, you should make sure that your submission is well formed:
 <ul>
 <li>it is not overcommented or undercommented</li>
 <li>there are no ambiguous variable names </li>
