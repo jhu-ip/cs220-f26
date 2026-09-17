@@ -33,11 +33,13 @@
 
 <p>See the list of functions on this 
   <a href="http://www.cplusplus.com/reference/cstdio/">reference website</a>.  
+</p>
 
 <h4>Standard input/output</h4>
 
 <p>We must <code>#include &lt;stdio.h&gt;</code> to use this library.  The standard
      (built-in) streams are defined there: 
+</p>
 <ul>
   <li><code>stdin</code>: keyboard or input redirect input
 </li>  <li><code>stdout</code>: standard  output (to console by default)
@@ -49,8 +51,8 @@
 
 <p>
 Prerequisite: <code>#include &lt;stdio.h&gt;</code> in header to access library functions; <a href="http://www.cplusplus.com/reference/cstdio/">Reference for <code>stdio.h</code></a>
-
-  <ul>
+</p>
+<ul>
    	<li> <code>putchar('d')</code> to output characters
 </li>	<li> <code>puts("some string")</code> to output strings
 </li>	<li> <code>printf("<em>format string</em>", <em>args</em>...)</code> for fancier output
@@ -80,10 +82,9 @@ Prerequisite: <code>#include &lt;stdio.h&gt;</code> in header to access library 
 </li>    <li> Type ctrl-d in a Unix system to produce an <code>EOF</code> from keyboard (ctrl-Z (Enter) on a PC)
 </li>  </ul>
 
-
 <h4>Formatted Input</h4>
 
-  <ul>
+<ul>
     <li>The <code>scanf</code> function works similarly to the printf
     output function for reading formatted input.
 </li>    <li>  We use a format
@@ -97,7 +98,8 @@ Prerequisite: <code>#include &lt;stdio.h&gt;</code> in header to access library 
     the memory address where the array starts. &lt;/p&gt;
 </li>  </ul>
 
-Here is a list of the most common conversion specifications:<pre>
+<p>Here is a list of the most common conversion specifications:</p>
+<pre>
     %d integer  
     %ld long 
     %c char
@@ -106,7 +108,7 @@ Here is a list of the most common conversion specifications:<pre>
     %lf double, Lf long double
 </pre>
 
-There are also many fancy input format options, see <a href="http://www.cplusplus.com/reference/cstdio/scanf/">scanf documentation</a> for details:
+<p>There are also many fancy input format options, see <a href="http://www.cplusplus.com/reference/cstdio/scanf/">scanf documentation</a> for details:</p>
 <ul>
 <li>Scan set notation: <code>%[a-zA-Z]</code> - inputs as long as chars in set, <code>[^0-9]</code> is "all except"
  inverse
@@ -115,19 +117,18 @@ There are also many fancy input format options, see <a href="http://www.cplusplu
 </li></ul>
 
 <p>Here is a short example:
-```c
-#include &lt;stdio.h&gt;
-int main()
-{
-    int number;
-    float x;
-    double y;
-    char word[20];
-    scanf("%d", &amp;number);
-    scanf("%f %lf", &amp;x, &amp;y);
-    scanf("%s", word);
-}
-```
+</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &amp;lt;stdio.h&amp;gt;
+</span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">number</span><span class="p">;</span>
+    <span class="kt">float</span> <span class="n">x</span><span class="p">;</span>
+    <span class="kt">double</span> <span class="n">y</span><span class="p">;</span>
+    <span class="kt">char</span> <span class="n">word</span><span class="p">[</span><span class="mi">20</span><span class="p">];</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">number</span><span class="p">);</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%f %lf"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">x</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">y</span><span class="p">);</span>
+    <span class="n">scanf</span><span class="p">(</span><span class="s">"%s"</span><span class="p">,</span> <span class="n">word</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <p>Note that we don't need <code>&amp;</code> in front of word because
         as an array it is an address already.  We also don't use a
@@ -137,7 +138,6 @@ int main()
         allocated for it and big enough to hold the characters that
         are input!</emph>
 </p>
-
 
 <h3>Sequential Files</h3>
 
@@ -176,10 +176,10 @@ int main()
 </li>    </ul>
 </li>
 </ul>
-  
+
 <h3>Binary Files</h3>
 
-  <ul>
+<ul>
 <li>Mostly declared/used the same way as text files
 </li><li>Add a <code>"b"</code> to the end of open mode passed to <code>fopen</code><br />
 -- e.g. <code>FILE fptr = fopen("items.dat","w+b");</code> opens a binary file in <code>"w+"</code> mode.
@@ -208,7 +208,6 @@ int main()
 </li></ul>
 </li>
 </li></ul>
-
 
 <h3>Random access files</h3>
 
@@ -261,7 +260,6 @@ int main(void) {
 }
 ```
 -->
-</p></p></p></p>
 
 
     <div id="footer"></div>

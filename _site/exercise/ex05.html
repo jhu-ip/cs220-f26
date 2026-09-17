@@ -32,7 +32,7 @@
     <div class="admonition info">
 <div class="title">Info</div>
 <div class="content">
-<p>This is an in-class exercise. An exercise page like this one will contain a brief description but is intended to be supplemented by discussion during our meeting time. Complete the exercise to the best of your ability in the time given. Feel free to talk with other students as you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, but if you cannot complete it in class you are encouraged to work at home to complete what you did not get through in class. Once finished, submit your work to Gradescope as a single <code>zip</code> file. The workflow of submitting an exercise is similar to that of a homework assignment.</p>
+<p>This is an in-class exercise. An exercise page like this one will contain a brief description but is intended to be supplemented by discussion during our meeting time. Complete the exercise to the best of your ability in the time given. Feel free to talk with other students as you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, minimally 50%. You are encouraged to work at home to complete what you did not get through in class. Once finished, submit your work to Gradescope as a single <code>zip</code> file. The workflow of submitting an exercise is similar to that of a homework assignment.</p>
 </div>
 </div>
 
@@ -62,14 +62,9 @@
 </div>
 </div>
   </li>
-  <li>Another subdirectory <em>cs220-xxx-public</em>, cloned from the public, coursewide repo.</li>
-</ol>
-
-<p>If this is not the case, ask for assistance.  You may need to redo steps from earlier exercises (#4 in particular).</p>
-
-<h3 id="part-2">Part 2</h3>
-
-<ol>
+  <li>
+    <p>Another subdirectory <em>cs220-xxx-public</em>, cloned from the public, coursewide repo. If this is not the case, ask for assistance.  You may need to redo steps from earlier exercises (ex03b especially).</p>
+  </li>
   <li>
     <p>Type <code class="language-plaintext highlighter-rouge">cd cs220-xxx-public</code> to navigate into your working copy of the remote, coursewide public repo, substituting the current term abbreviation for <em>xxx</em>.</p>
   </li>
@@ -79,26 +74,11 @@
   <li>
     <p>Type <code class="language-plaintext highlighter-rouge">git pull</code> to synchronize your local repo and working copy with the remote repo.</p>
   </li>
-  <li>
-    <p>Confirm that you can see the template (a.k.a. starter) files for today’s exercise by typing 
-<code class="language-plaintext highlighter-rouge">ls exercises/ex05</code> – you should see three <code class="language-plaintext highlighter-rouge">.c</code> source files listed.</p>
-  </li>
+  <li>Confirm that you can see the template (a.k.a. starter) files for today’s exercise by typing 
+<code class="language-plaintext highlighter-rouge">ls exercises/ex05</code> – you should see three <code class="language-plaintext highlighter-rouge">.c</code> source files listed.</li>
 </ol>
 
-<h3 id="part-3">Part 3</h3>
-<ol>
-  <li>
-    <p>We created a <code class="language-plaintext highlighter-rouge">.bashrc</code> unix shell file that contains several alias and environment settings that will make your ugrad server lives better. Along with this, we have a <code class="language-plaintext highlighter-rouge">.bash_profile</code> configuration file which will get the <code class="language-plaintext highlighter-rouge">.bashrc</code> settings into place when you log in remotely. While you are still in the <em>cs220-xxx-public</em> directory under <code class="language-plaintext highlighter-rouge">ex05</code>, type <code class="language-plaintext highlighter-rouge">ls -a</code> to see these (hidden) files.</p>
-  </li>
-  <li>
-    <p>Assuming you do not already have a customized <code class="language-plaintext highlighter-rouge">.bashrc</code> file in your home directory (ask for help if you already have one!), type <code class="language-plaintext highlighter-rouge">cp .bashrc ~</code> to copy our version of the file to your home directory. Next, type <code class="language-plaintext highlighter-rouge">cp .bash_profile ~</code> to copy the other file to your home directory. Then type <code class="language-plaintext highlighter-rouge">source ~/.bashrc</code> to run it. Normally this configuration file will automatically run every time you log into a ugrad unix server, but for now we want it to take effect in this session.</p>
-  </li>
-  <li>
-    <p>Type <code class="language-plaintext highlighter-rouge">cat ~/.bashrc</code> to see the contents of that file. It sets your default <em>EDITOR</em> to be <em>emacs</em> (feel free to change it to <em>vim</em> if you prefer, then re-type the <code class="language-plaintext highlighter-rouge">source</code> command above), and it defines two aliases we can use as shortcuts when compiling our programs. The first one, <code class="language-plaintext highlighter-rouge">gccc</code> (note the extra ‘c’!) is our standard <code class="language-plaintext highlighter-rouge">gcc</code> command with all the required flags already included. To use it, just type <code class="language-plaintext highlighter-rouge">gccc myfile.c</code> to compile a file. The lines beginning with a hashtag are comments in this unix shell scripting language.  The second alias will be useful when we start using C++.</p>
-  </li>
-</ol>
-
-<h3 id="part-4">Part 4</h3>
+<h3 id="part-2">Part 2</h3>
 <ol>
   <li>
     <p>Use <code class="language-plaintext highlighter-rouge">cd ~/my220repo</code> to move to your working copy of your personal repo. Type <code class="language-plaintext highlighter-rouge">git pull</code> to sync any updates you may have made from another copy.</p>
@@ -117,17 +97,17 @@
   </li>
 </ol>
 
-<h3 id="part-5">Part 5</h3>
-<p>The three files that you just copied to your <em>~/cs220/ex05</em> directory are named <em>count1.c</em>, <em>count2.c</em> and <em>count3.c</em>.  Each of the files is an incomplete program that you must complete and test yourself.  Starting with <em>count1.c</em>:</p>
+<h3 id="part-3">Part 3</h3>
+<p>The three files that you just copied to your <em>~/my220repo/exercises/ex05</em> directory are named <em>count1.c</em>, <em>count2.c</em> and <em>count3.c</em>.  Each of the files is an incomplete program that you must complete and test yourself.  Starting with <em>count1.c</em>:</p>
 
 <ol>
   <li>
     <p>Open the file for editing using <code class="language-plaintext highlighter-rouge">emacs count1.c</code> or <code class="language-plaintext highlighter-rouge">vim count1.c</code>.</p>
   </li>
   <li>
-    <p>Read the source code and the comments.  Your instructions are in the comments!</p>
+    <p>Read the source code and the comments. Your instructions are in the comments!</p>
   </li>
-  <li>Modify the source files and test by:
+  <li>Modify the first source file <code class="language-plaintext highlighter-rouge">count1.c</code> and test by:
     <ul>
       <li>Compiling with <code class="language-plaintext highlighter-rouge">gcc -Wall -Wextra -std=c99 -pedantic count1.c -o count1</code> (or by simply typing <code class="language-plaintext highlighter-rouge">gccc count1.c -o count1</code> to use your new alias!) The extra <code class="language-plaintext highlighter-rouge">-o count1</code> portion at the end of the line is asking for the executable created by <code class="language-plaintext highlighter-rouge">gcc</code> to be named <em>count1</em> instead of the usual <em>a.out</em>.</li>
       <li>Running with <code class="language-plaintext highlighter-rouge">./count1</code>.<br /><br /></li>
@@ -140,15 +120,33 @@
 <span class="nv">$ </span>git push  <span class="c"># (when ready to update remote repo)</span>
 </code></pre></div>    </div>
   </li>
-  <li>Do the above steps for the other two files: <em>count2.c</em> and <em>count3.c</em>. We don’t expect you to complete them all during class time, but they are excellent practice for understanding basic C syntax, working with characters and arrays, and coding common algorithms.</li>
 </ol>
+
+<h3 id="part-4">Part 4</h3>
+
+<ol>
+  <li>
+    <p>We created a <code class="language-plaintext highlighter-rouge">.bashrc</code> unix shell file that contains several alias and environment settings that will make your ugrad server lives better. Along with this, we have a <code class="language-plaintext highlighter-rouge">.bash_profile</code> configuration file which will get the <code class="language-plaintext highlighter-rouge">.bashrc</code> settings into place when you log in remotely. Navigate back to the <code class="language-plaintext highlighter-rouge">exercises/ex05</code> directory in your copy of the <em>cs220-xxx-public</em> repo, then type <code class="language-plaintext highlighter-rouge">ls -a</code> to see these (hidden) files.</p>
+  </li>
+  <li>
+    <p>Assuming you do not already have a customized <code class="language-plaintext highlighter-rouge">.bashrc</code> file in your home directory (ask for help if you already have one!), type <code class="language-plaintext highlighter-rouge">cp .bashrc ~</code> to copy our version of the file to your home directory. Next, type <code class="language-plaintext highlighter-rouge">cp .bash_profile ~</code> to copy the other file to your home directory. Then type <code class="language-plaintext highlighter-rouge">source ~/.bashrc</code> to run it. Normally this configuration file will automatically run every time you log into a ugrad unix server, but for now we want it to take effect in this session.</p>
+  </li>
+  <li>
+    <p>Type <code class="language-plaintext highlighter-rouge">cat ~/.bashrc</code> to see the contents of that file. It sets your default <em>EDITOR</em> to be <em>emacs</em> (feel free to change it to <em>vim</em> if you prefer, then re-type the <code class="language-plaintext highlighter-rouge">source</code> command above), and it defines two aliases we can use as shortcuts when compiling our programs. The first one, <code class="language-plaintext highlighter-rouge">gccc</code> (note the extra ‘c’!) is our standard <code class="language-plaintext highlighter-rouge">gcc</code> command with all the required flags already included. To use it, just type <code class="language-plaintext highlighter-rouge">gccc myfile.c</code> to compile a file. The lines beginning with a hashtag are comments in this unix shell scripting language.  The second alias will be useful when we start using C++.</p>
+  </li>
+</ol>
+
+<h3 id="part-5">Part 5</h3>
+
+<p>Return to your personal repo and navigate to your ex05 subdirectory. Do the steps in Part 3 for the other two files: <em>count2.c</em> and <em>count3.c</em>. We don’t expect you to complete them all during class time, but they are excellent practice for understanding basic C syntax, working with characters and arrays, and coding common algorithms.</p>
 
 <div class="admonition tip">
 <div class="title">Reminder</div>
 <div class="content">
-<p>Remember to add and commit to your local repo copy as your work. Push to your remote repo when finished. Also submit to Gradescope to check your program results and use <code>exit</code> to logout from your ugrad account when finished. If you continue to work on the program after class, make sure to keep your repo updated as well!</p>
+<p>Remember to `add` and `commit` to your local repo copy as your work. `Push` to your remote repo when finished. Also download (`scp`) and submit to Gradescope to check your program results and use <code>exit</code> to logout from your ugrad account when finished. If you continue to work on the exercise after class, make sure to keep your repo updated as well!</p>
 </div>
 </div>
+
 
 
     <div id="footer"></div>

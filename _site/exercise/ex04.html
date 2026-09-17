@@ -32,7 +32,7 @@
     <div class="admonition info">
 <div class="title">Info</div>
 <div class="content">
-<p>This is an in-class exercise. An exercise page like this one will contain a brief description but is intended to be supplemented by discussion during our meeting time. Complete the exercise to the best of your ability in the time given. Feel free to talk with other students as you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, but if you cannot complete it in class you are encouraged to work at home to complete what you did not get through in class. Once finished, submit your work to Gradescope as a single <code>zip</code> file. The workflow of submitting an exercise is similar to that of homework assignments.</p>
+<p>This is an in-class exercise. An exercise page like this one will contain a brief description but is intended to be supplemented by discussion during our meeting time. Complete the exercise to the best of your ability in the time given. Feel free to talk with other students as you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, minimally 50%. You are encouraged to work at home to complete what you did not get through in class. Once finished, submit your work to Gradescope as a single <code>zip</code> file. The workflow of submitting an exercise is similar to that of homework assignments.</p>
 </div>
 </div>
 
@@ -53,7 +53,7 @@
 <h3 id="part-1">Part 1</h3>
 <p>Log into your ugrad Linux account using Terminal/PuTTY depending on what computer you are using. Navigate (using <code class="language-plaintext highlighter-rouge">cd</code>) into the <em>cs220-xxx-public</em> repo you should have cloned already, replacing the <em>xxx</em> with the appropriate name for the current semester (see <a href="ex03b.html">Exercise 3-B</a>). Do a <code class="language-plaintext highlighter-rouge">git pull</code> command to update your copy of the repo. You should now see an <em>ex04</em> subdirectory if you do an <code class="language-plaintext highlighter-rouge">ls exercises</code> command.</p>
 
-<p>Next go back to the enclosing directory (using <code class="language-plaintext highlighter-rouge">cd ..</code> command) and rename your private repository from <em>YEAR-TERM-student-JHED</em> to <em>my220repo</em> by typing <code class="language-plaintext highlighter-rouge">mv YEAR-TERM-student-JHED my220repo</code>, where YEAR and TERM match the current semester and JHED is your own unique JHED ID. This will make it easier to navigate to your private repo directory and makes your linux commands shorter. (Note that the repo name on github will not change.)</p>
+<p>Next go back to the enclosing directory (using <code class="language-plaintext highlighter-rouge">cd ..</code> command) and rename your private repository from <em>YEAR-TERM-student-JHED</em> to <em>my220repo</em> using the “move” command by typing <code class="language-plaintext highlighter-rouge">mv YEAR-TERM-student-JHED my220repo</code>, where YEAR and TERM match the current semester and JHED is your own unique JHED ID. This will make it easier to navigate to your private repo directory and makes your linux commands shorter. (Note that the repo name on github will not change.)</p>
 
 <p>Then, you need to copy the file <em>ex04/gpa_simple.c</em> file into your repo. You could do this a few different ways. Our suggestion is to go to your home directory first, assuming both the <em>cs220-xxx-public</em> and your personal <em>my220repo</em> folders reside in your home directory. (If you made a subdirectory for this course, start there.) Try using tab completion as you type the cp command so that you do not have to type every single letter. Remember to substitute the current term abbreviation for <em>xxx</em>.</p>
 
@@ -65,54 +65,8 @@
 
 <p>Now you should see the <em>gpa_simple.c</em> file along with whatever else is in your repo.</p>
 
-<p>So right now, <em>gpa_simple.c</em> is at the top level of your personal repo (<em>my220repo</em>).  But we would like your personal repo to have a little bit more structure, since you will be using it for all exercises and most homework this semester.  So, we suggest that you make a subfolder named <em>exercises</em>, and another one inside <em>exercises</em> named <em>ex04</em>.  We will then put <em>gpa_simple.c</em> there.  First, let us confirm that you are still at the top of your personal repo.  Do this by typing the <code class="language-plaintext highlighter-rouge">pwd</code> command and see what it reports. It should look something like this:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">pwd</span>
-/home/YOUR_LOGIN/my220repo
-</code></pre></div></div>
-
-<p>If it does not look like that, then you will need to navigate to your <em>my220repo</em> using Linux commands. Now, from the top of your personal repo (i.e., inside <code class="language-plaintext highlighter-rouge">my220repo</code> folder), type:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">mkdir </span>exercises
-<span class="nv">$ </span><span class="nb">cd </span>exercises
-<span class="nv">$ </span><span class="nb">mkdir </span>ex04
-<span class="nv">$ </span><span class="nb">cd </span>ex04
-<span class="nv">$ </span><span class="nb">mv</span> ../../gpa_simple.c <span class="nb">.</span>      <span class="c"># (note the space then dot at the end!)</span>
-</code></pre></div></div>
-
-<p>This last command moves <em>gpa_simple.c</em> from two levels higher up, to the current folder (the <em>ex04</em> subfolder you just created).  Now it will not clutter up the top level of your repo.</p>
-
-<div class="admonition tip">
-<div class="title">A Tip for later</div>
-<div class="content">
-<p>You may wish to make a similar structure for homework assignments: a homework folder with a subfolder named <em>hw0</em>. If you have not started working on <em>hw0</em> yet, create that structure first. If you've already worked on <em>hw0</em> in the top level <em>my220repo</em> folder and used git to add and commit the files, you'll want to use <code>git mv &lt;source&gt; &lt;destination&gt;</code> to rename them, then commit and push again. Feel free to ask for help in office hours or on Piazza.</p>
-</div>
-</div>
-
-<p>Ultimately (after you create your structure for homework, specific instructions not covered here), your directory structure might look something like this:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/home/YOUR_LOGIN
-├── /cs220-xxx-public
-|   └── exercises
-|       ├── ex02
-|       │   └── hello_world.c
-|       └── ex04
-|           └── gpa_simple.c
-└── /my220repo
-    ├── exercises
-    │   ├── ex02
-    │   │   └── hello_world.c
-    │   └── ex04
-    │       └── gpa_simple.c
-    └── homework 
-        └── hw0
-            ├── gold.c
-            ├── silver.c
-            └── bronze.c
-</code></pre></div></div>
-
 <h3 id="part-2">Part 2</h3>
-<p>Now, back to the exercise. Remember that you need to add files you want to track in your repo. Hopefully, you are still in subdirectory <em>my220repo/exercises/ex04</em>. If not return there, then execute:</p>
+<p>Now, time to write code for the exercise. Remember that you need to add files you want to track in your repo. Hopefully, you are still in subdirectory <em>my220repo</em>. If not return there, then execute:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git pull       <span class="c"># (good habit every time you start to work)</span>
 <span class="nv">$ </span>git add gpa_simple.c
@@ -155,12 +109,57 @@
 <span class="nv">$ </span>git push
 </code></pre></div></div>
 
+<h3 id="part-3">Part 3</h3>
+
+<p>Submit to Gradescope to check your program results. See <a href="ex03a.html">Exercise 3-A</a> for submission instructions - same as for homework. Remember to use <code>exit</code> to logout from your ugrad account when finished. If you continue to work on the program after class, make sure to keep your repo updated as well!</p>
+
+<h3 id="part-4">Part 4</h3>
+
+<p>Right now, <em>gpa_simple.c</em> is at the top level of your personal repo (<em>my220repo</em>).  But we would like your personal repo to have a little bit more structure, since you will be using it for all exercises and most homework this semester.  So, we suggest that you make a subfolder named <em>exercises</em>, and another one inside <em>exercises</em> named <em>ex04</em>.  We will then put <em>gpa_simple.c</em> there.  First, let us confirm that you are still at the top of your personal repo.  Do this by typing the <code class="language-plaintext highlighter-rouge">pwd</code> command and see what it reports. It should look something like this:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">pwd</span>
+/home/YOUR_LOGIN/my220repo
+</code></pre></div></div>
+
+<p>If it does not look like that, then you will need to navigate to your <em>my220repo</em> using Linux commands. Now, from the top of your personal repo (i.e., inside <code class="language-plaintext highlighter-rouge">my220repo</code> folder), type:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">mkdir </span>exercises
+<span class="nv">$ </span><span class="nb">cd </span>exercises
+<span class="nv">$ </span><span class="nb">mkdir </span>ex04
+<span class="nv">$ </span><span class="nb">cd </span>ex04
+<span class="nv">$ </span><span class="nb">mv</span> ../../gpa_simple.c <span class="nb">.</span>      <span class="c"># (note the space then dot at the end!)</span>
+</code></pre></div></div>
+
+<p>This last command moves <em>gpa_simple.c</em> from two levels higher up, to the current folder (the <em>ex04</em> subfolder you just created).  Now it will not clutter up the top level of your repo.</p>
+
 <div class="admonition tip">
-<div class="title">Reminder</div>
+<div class="title">A Tip for later</div>
 <div class="content">
-<p>Remember to submit to Gradescope to check your program results (see <a href="ex03a.html">Exercise 3-A</a> for submission instructions - same as homework), and use <code>exit</code> to logout from your ugrad account when finished. If you continue to work on the program after class, make sure to keep your repo updated as well!</p>
+<p>You may wish to make a similar structure for homework assignments: a homework folder with a subfolder named <em>hw0</em>. If you have not started working on <em>hw0</em> yet, create that structure first. If you've already worked on <em>hw0</em> in the top level <em>my220repo</em> folder and used git to add and commit the files, you'll want to use <code>git mv &lt;source&gt; &lt;destination&gt;</code> to rename them, then commit and push again. Feel free to ask for help in office hours or on Piazza.</p>
 </div>
 </div>
+
+<p>Ultimately (after you create your structure for homework, specific instructions not covered here), your directory structure might look something like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/home/YOUR_LOGIN
+├── /cs220-xxx-public
+|   └── exercises
+|       ├── ex02
+|       │   └── hello_world.c
+|       └── ex04
+|           └── gpa_simple.c
+└── /my220repo
+    ├── exercises
+    │   ├── ex02
+    │   │   └── hello_world.c
+    │   └── ex04
+    │       └── gpa_simple.c
+    └── homework 
+        └── hw0
+            ├── cat.c
+            ├── dog.c
+            └── penguin.c
+</code></pre></div></div>
 
 
     <div id="footer"></div>
