@@ -11,9 +11,13 @@ reference solutions:
 ---
 
 1. What is a pointer?
+<br />  <br /> <br />
 2. If `a` is an int variable, and `p` is a variable whose type is *pointer-to-int*, how do you make `p` point to `a`?
+<br />  <br /> <br />
 3. If `p` is a *pointer-to-int* variable that points to an `int` variable `a`, how can you access the value of `a` or assign a value to `a` without directly referring to `a`?  Show examples of printing the value of `a` and modifying the value of `a`, but without directly referring to `a`.
+<br />  <br /> <br />
 4. When calling `scanf`, why do you need to put a `&` symbol in front of a variable in which you want `scanf` to store an input value?
+<br />  <br /> <br />
 5. Trace the little program below and determine what the output will be.
 
 ```c
@@ -32,4 +36,5 @@ int main() {
     printf("%.2f, %.2f, %.2f, %d\n", a, b, c[0], d);
 }
 ```
+<br />  <br /> <br />
 

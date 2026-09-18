@@ -167,7 +167,7 @@ the materials for that week. Note that all weeks will be marked as "[DRAFT]" and
 </table>
 </div>
 
-<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (21-Sep to 25-Sep) [DRAFT]</button>
+<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (21-Sep to 25-Sep)</button>
 <div id="week_4" class="collapsible">
 <table>
   <thead>
@@ -730,7 +730,7 @@ the materials for that week. Note that all weeks will be marked as "[DRAFT]" and
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var active_week_id = 'week_3';
+    var active_week_id = 'week_4';
 
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {

@@ -13,11 +13,17 @@ reference solutions:
 ---
 
 1.	What is the difference between stack and heap memory?
+<br />  <br /> <br />
 2. What is dynamic memory allocation in C?
+<br />  <br /> <br />
 3. What is the memory leak problem?
+<br />  <br /> <br />
 4. What is the difference between *malloc*, *realloc*, and *calloc*?
+<br />  <br /> <br />
 5. What do we use valgrind to check for?
+<br />  <br /> <br />
 6. How should we compile our code to be able to run it with valgrind? How do we invoke valgrind from the commandline?
+<br />  <br /> <br />
 7. Consider the `exclaim` function below. Do you see any problems with this function?
 
 ```c
@@ -33,3 +39,4 @@ char* exclaim(int n) {
   return s;
 }
 ```
+<br />  <br /> <br />
