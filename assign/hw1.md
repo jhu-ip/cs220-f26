@@ -106,14 +106,10 @@ some earlier compiling version of your work pushed to Github. Use the following 
 <p>
 When you test your program in a terminal using the example inputs
 shown below, the result should be <em>exactly</em> what is shown below,
-including spacing. Note that
-<ul>
-  <li>Each prompt should end with a space, but should <em>not</em> have a newline at the end, with the exemption of the prompt to enter type identifiers and durations.</li>
-    <li>Each output line indicating an error <em>should</em> end with a newline.</li>
-    </ul>
-    </p>
-    </div>
-    </div>
+including spacing.
+</p>
+</div>
+</div>
 
 Here are several samples runs of the program on ugrad, where `$` denotes the command prompt, and user input is shown in **bold**. Note that the first line shown below is the command you are expected to use as you compile your program (and the one that will be used by the graders). The compilation line should report zero errors and warnings, as demonstrated in these examples.
 
