@@ -8,8 +8,8 @@ reference solutions:
   3.  it will result in invalid read memory access because the address in *p doesn't necessarily belong to the program
   4.  result=274  (adds 42+67+89+76)
   5.  Yes in all cases. The const in the altered function declaration applies to the values in the array, and we can make things more restrictive.
-  6. [NEW] "const int *p" is a pointer to a constant int where the int being pointed to is read-only through p. "int * const p", on the other hand though, declares a constant pointer to a (non-const) int where the pointer itself cannot change after initialization.
-  7. [NEW] 10 * 5. `for (int i = 0; i < num_rows; i++) { free(a[i]); }` and `free(a)` in that order!
+  6. "const int *p" is a pointer to a constant int where the int being pointed to is read-only through p. "int * const p", on the other hand though, declares a constant pointer to a (non-const) int where the pointer itself cannot change after initialization.
+  7. 10 rows by 5 cols. `for (int i = 0; i < 10; i++) { free(a[i]); }` and `free(a)` in that order!
 ---
 
 1. What output is printed by the "Example code" below?
@@ -31,10 +31,13 @@ reference solutions:
 	int d = (q < p);
 	printf("%d %d\n", c, d);
 	```
+<br /><br /><br />
 
 2. Assume that `arr` is an array of 5 `int` elements. Is the code `int *p = arr + 5;` legal?
+<br /><br /><br />
 
 3. Assume that `arr` is an array of 5 `int` elements. Is the code `int *p = arr + 5; printf("%d\n", *p);` legal?
+<br /><br /><br />
 
 4. What output is printed by the "Example code 2" below?
 
@@ -58,10 +61,13 @@ reference solutions:
 	  return 0;
 	}
 	```
+<br /><br /><br />
 
 5. Suppose we have variables `int ra1[10] = {1, 2, 3};`, `int * ra2 = ra1;` and `int fun(int *ra);` declarations. Will `fun(ra1);` compile? Will `fun(ra2);` compile? What if we change the function declaration to `int fun(const int ra[]);`? 
+<br /><br /><br />
 
 6. What is the difference, if any, between `const int * p` and `int * const p`?
+<br /><br /><br />
 
 7. What size of a 2D array does the following define on the heap? Write the code to free memory to prevent memory leakages.
 
@@ -72,3 +78,4 @@ reference solutions:
 	   a[i] = malloc(sizeof(int) * 5);
 	}
 	```
+<br /><br /><br />

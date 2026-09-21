@@ -4,19 +4,29 @@ layout: default
 title: Day 13 Recap Questions
 reference solutions:
   1. A user defined data type, which is a collection of related variables, called fields.
-  2. Passed by value - each field is copied. Note that if the field is a pointer the address is copied.
+  2. Passed by value - each field is copied. Note that if the field is a pointer the address is copied; if an array field, the whole array is copied.
   3. It is the total byte sizes of all fields in a struct + padding. Typically C compiler pad the struct to align with 4-bytes.
   4. Lifetime is the lifespan of a variable in the memory. Scope is where the variable can be accessed.
   5. When an inner scope variable and an outer scope variable have the same name. The inner one hides the outer one. [May need to clarify what file scope, function scope, and block scope are]
-  6. 0; 3; 5; 2; [global variable is initialized, demonstrated to use extern get access to the global]
-  7. [NEW] `rand` generates a pseudo-random integer in the range 0 <= rand() <= `RAND_MAX`, where `RAND_MAX` is a constant defined in `<stdlib.h>`, commonly 32767. `srand(unsigned int seed)` sets the starting point (seed) for the pseudo-random number generator used by rand. If you don't call srand, the seed defaults to 1.
+  6. 0; 3; 5; 2; [global variable is initialized, demonstrated to use extern to get access to the global]
+  7. `rand` generates a pseudo-random integer in the range 0 <= rand() <= `RAND_MAX`, where `RAND_MAX` is a constant defined in `<stdlib.h>`, commonly 32767. `srand(unsigned int seed)` sets the starting point (seed) for the pseudo-random number generator used by rand. If you don't call srand, the seed defaults to 1.
 ---
 
 1. What is *struct* in C?
+<br /><br /><br />
+
 2. How are the fields of a struct passed into a function - by value or by reference?
+<br /><br /><br />
+
 3. What is the size of a *struct*? What is structure padding in C?
+<br /><br /><br />
+
 4. What is the difference between lifetime and scope of a variable?
+<br /><br /><br />
+
 5. What is variable shadowing (i.e. hiding)?
+<br /><br /><br />
+
 6.  What is the output of the below program?
 
 	```c
@@ -42,4 +52,8 @@ reference solutions:
 	  return 0;
 	}
 	```
+<br /><br /><br />
+
 7. Explain what `srand` and `rand` functions do exactly.
+<br /><br /><br />
+
