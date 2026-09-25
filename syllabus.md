@@ -312,7 +312,7 @@ autograder feedback on them.
 
 **Code Reviews**
 
-Students must meet with a course staff member to explain each of their homework assignments, including group projects. Each review must be completed within a designated two-week period after submission/grading. **Students who do not meet for a review within the expected period will receive 0 credit on the associated homework.** Code review outcomes could be:
+Students must meet with a course staff member to explain each of their homework assignments, including group projects. Each review must be completed within a designated period after submission/grading. **Students who do not meet for a review within the expected period will receive 0 credit on the associated homework.** Code review outcomes could be:
 
 - Satisfactory - can explain most of the code and how it might be adapted with only minor gaps; will earn your full homework grade
   
