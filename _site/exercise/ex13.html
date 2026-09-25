@@ -36,10 +36,7 @@
 contain a brief description but is intended to be supplemented by
 discussion during our meeting time. Complete the exercise to the best of
 your ability in the time given. Feel free to talk with other students as
-you work, and do not be afraid to ask questions if you get stuck. Aim to
-complete as much as possible during our meeting, and submit on
-Gradescope to check your solution. You are encouraged to work at home to
-complete what you do not get through today.</p>
+you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, minimally 50%, submitting to Gradescope as you go for feedback. You are encouraged to work at home to complete what you did not get through in class, asking questions on Piazza or in office hours if stuck.</p>
 </div>
 </div>
 
@@ -59,8 +56,6 @@ pointers</li>
 <h3 id="part-1">Part 1</h3>
 <p>Pull the starter code for this exercise from the public repo by taking the following steps:</p>
 
-<p>Pull the starter code for this exercise from the public repo by taking the following steps:</p>
-
 <ol>
   <li>
     <p>Log into an undergraduate cluster computer. Update the course public repo with a <code class="language-plaintext highlighter-rouge">git pull</code> command.</p>
@@ -74,7 +69,6 @@ pointers</li>
   </li>
 </ol>
 
-<h3 id="part-2">Part 2</h3>
 <p>Open <code class="language-plaintext highlighter-rouge">soccer.h</code> with a text editor. In this file you will find headers for three functions. In this part you need to create struct types to contain information about a soccer “Player”; the “Date” shows the date the player was signed into a team and “Stat” stores basic statistics of a player in a game. Note function declarations are already there. You must define the following struct types (<code class="language-plaintext highlighter-rouge">Stat</code>, <code class="language-plaintext highlighter-rouge">Date</code> and <code class="language-plaintext highlighter-rouge">Player</code> are the struct types and bulleted items below each indicate their struct members) before the function headers:</p>
 
 <p><code class="language-plaintext highlighter-rouge">Stat</code></p>
@@ -103,13 +97,12 @@ pointers</li>
   <li><code class="language-plaintext highlighter-rouge">Stat *</code> stat  (pointer to a Stat struct defined on the heap)</li>
 </ul>
 
-<h3 id="part-3">Part 3</h3>
 <p>Once you are finished defining the struct types in the header file, you may switch to <code class="language-plaintext highlighter-rouge">soccer.c</code>. There are a few functions in this file, namely <em>create_team</em>, <em>create_player</em>, and <em>print_team</em>. All of those are fully implemented. You should review the implementation of these functions to make sure you understand them.</p>
 
-<h3 id="part-4">Part 4</h3>
+<h3 id="part-2">Part 2</h3>
 <p>Now switch to <code class="language-plaintext highlighter-rouge">main.c</code>. There are a few things you need to do here. First, you should read information from the input using <em>scanf</em> to create a stat structure. Note that this stat struct is dynamically defined on the heap and <em>new_stat</em> points to it. Then, you need to find the player with the latest signed date in the array “team”. If there are multiple players with the same signed date, you would select the one with smallest index in the array. Finally, update the stat of the player at the index you found with <em>new_stat</em>. Once finished, you can produce an executable by running “make” and run the executable by typing <em>./main</em>. Check if your code works as expected (i.e., the player’s stats with most recent signed date gets updated properly).</p>
 
-<h3 id="part-5">Part 5</h3>
+<h3 id="part-3">Part 3</h3>
 <p>Note the use of <code class="language-plaintext highlighter-rouge">-g</code> in the make file, which enables debugging.  Now, run the program using valgrind:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>valgrind  <span class="nt">--leak-check</span><span class="o">=</span>full  <span class="nt">--show-leak-kinds</span><span class="o">=</span>all  ./main

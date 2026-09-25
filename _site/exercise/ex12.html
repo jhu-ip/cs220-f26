@@ -36,11 +36,7 @@
 contain a brief description but is intended to be supplemented by
 discussion during our meeting time. Complete the exercise to the best of
 your ability in the time given. Feel free to talk with other students as
-you work, and do not be afraid to ask questions if you get stuck. Aim to
-complete as much as possible during our meeting, and submit on Gradescope
-to check your solution. You are encouraged to work at home to complete
-what you do not get through today, and ask questions on Piazza or in
-office hours.</p>
+you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, minimally 50%, submitting to Gradescope as you go for feedback. You are encouraged to work at home to complete what you did not get through in class, asking questions on Piazza or in office hours if stuck.</p>
 </div>
 </div>
 
@@ -81,7 +77,7 @@ personal repo’s directory for today’s exercise.</p>
   </li>
 </ol>
 
-<h3 id="part-3">Part 3</h3>
+<h3 id="part-2">Part 2</h3>
 <p>Open <code class="language-plaintext highlighter-rouge">bsearch.c</code> with a text editor. To compile the code, use this command:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcc <span class="nt">-std</span><span class="o">=</span>c99 <span class="nt">-pedantic</span> <span class="nt">-Wall</span> <span class="nt">-Wextra</span> bsearch.c <span class="nt">-g</span> <span class="nt">-o</span> bsearch   
@@ -118,7 +114,7 @@ the <code class="language-plaintext highlighter-rouge">search</code> function sh
 Note that in today’s exercise, you are not required to implement the binary
 search using recursion. Either recursion or iteration is fine. However,
 keep in mind that for Ex 7 both of the range indices <code class="language-plaintext highlighter-rouge">low</code> and <code class="language-plaintext highlighter-rouge">high</code>
-were <em>inclusive</em>.</p>
+were <em>inclusive</em>, whereas today only the <code class="language-plaintext highlighter-rouge">start</code> address is inclusive.</p>
 
 <p>Next, after you have implemented the <code class="language-plaintext highlighter-rouge">search</code> function, you should complete
 the code in the <code class="language-plaintext highlighter-rouge">main</code> function.  You will see a block of code that looks
@@ -148,7 +144,7 @@ program.  If the tests pass, you will see the output:</p>
 searches and three test cases for unsuccessful searches.  Make sure that
 all of your tests pass.</p>
 
-<h3 id="part-4">Part 4</h3>
+<h3 id="part-3">Part 3</h3>
 
 <p>For the next part of this exercise, you’ll be finishing the implementation
 of a sudoku checker program. The purpose of the program is to read an
@@ -172,10 +168,10 @@ compile everything with the Makefile and run the main program with each
 puzzle file as input. The first two are not correct/complete solutions,
 but <code class="language-plaintext highlighter-rouge">puzzle3.txt</code> is a completely solved puzzle.</p>
 
-<h3 id="part-5">Part 5</h3>
+<h3 id="part-4">Part 4</h3>
 
-<p>Lastly, using the tools you learned in Ex 11 during the last class
-session, modify the <code class="language-plaintext highlighter-rouge">Makefile</code>, adding the <code class="language-plaintext highlighter-rouge">-g</code> option to your compilation
+<p>Lastly, using the tools you learned in Ex09 and Ex11 during recent class
+sessions, modify the <code class="language-plaintext highlighter-rouge">Makefile</code>, adding the <code class="language-plaintext highlighter-rouge">-g</code> option to your compilation
 command(s) so that you can run <code class="language-plaintext highlighter-rouge">gdb</code> and <code class="language-plaintext highlighter-rouge">valgrind</code> on this code. Find
 a fix the memory leaks in <code class="language-plaintext highlighter-rouge">sudokuHelpers.c</code> for this final task.</p>
 

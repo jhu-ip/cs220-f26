@@ -13,9 +13,9 @@ Assignment/Exam | Posted | Due Date
 [Homework 0](assign/hw0.html) | Fri Sep 4 | Fri Sep 11
 [Homework 1](assign/hw1.html) | Fri Sep 11 | Fri Sep 18
 [Homework 2](https://www.gradescope.com/courses/1328799/assignments/8554974/) | Fri Sep 18 | Fri Sep 25
+[Homework 3](assign/hw3.html) | Fri Sep 25 | Fri Oct 2
 
 <!--
-[Homework 3](assign/hw3.html) | Fri Feb 13 | Fri Feb 20
 [Homework 4](https://www.gradescope.com/courses/1222412/assignments/7702221/) | Fri Feb 20 | Fri Feb 27
 [Midterm Project](assign/midterm.html) | Fri Feb 27 | Fri Mar 6: Dev Plan 
                                        |            | Wed Mar 25: Code 
