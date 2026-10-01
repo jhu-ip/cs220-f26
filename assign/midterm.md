@@ -10,11 +10,12 @@ title: Midterm Project
 <ul>
 <li>You are expected to work in a team of two.</li>
 <li>Released: Fri Oct 9</li>
+<li><strong>Team Info Due: Tue Oct 6 at 11pm</strong></li>
 <li><strong>Development Plan Due: Fri Oct 16 at 11pm</strong></li>
 <li><strong>Project Zip Due: Wed Oct 28 at 11pm</strong></li>
 <li><strong>Partner Evaluation Form Due: Mon Nov 2 at 11pm</strong></li>
-<li>This project is worth 150 points total</li>
-<li>No late days may be used!</li>
+<li>This project is worth 6% of your grade, and will be graded out of 150 points</li>
+<li>The 12-hour late grace period does apply to all project deadlines.</li>
 <li>Collaboration is with your partner only.</li>
 </ul>
 </div>
@@ -81,7 +82,7 @@ Please note that if you are using emacs while X-tunnelling is enabled, you will 
 
 If you are using a different platform, you are welcome to use an image viewer of your choice. Mac and Windows come with their built-in image viewers that should recognize the ppm format. If you want to install `feh` locally on your linux installation, it is easy to do so using most linux package managers, but there are other open source image viewing programs.
 
-If you are using VS Code, you may view images directly in the editor. You may need to install an appropriate extension to allow this (try searching for "PPM" in the extension market-place.)
+If you are using VS Code, you can view images directly in the editor. You may need to install an appropriate extension to allow this (try searching for "PPM" in the extension market-place.)
 
 ## Program Description
 
@@ -480,13 +481,17 @@ For each function, it's important to think about precisely what it should do, an
 
 ## Submission
 
+### Partner Info
+
+Submit your team information/request by completing the corresponding question on [HW4](https://www.gradescope.com/courses/1328799/assignments/8767708/) before **Tue Oct 6, 11pm**. The information on this form will be used to assign you a partner if needed, and create a team repo in our github organization that you and your partner will need to use.
+
 ### Development Plan
 
-Submit your development plan in a plain text file called README.md to Gradescope before the March 6th deadline. As noted above, you can use Markdown formatting to make this look nice. Remember to include all team member full names and JHED IDs in your submission. 
+Submit your development plan in a plain text file called README.md to Gradescope before the **Fri Oct 16** deadline. As noted above, you can use Markdown formatting to make this look nice. Remember to include all team member full names and JHED IDs in your submission. 
 
 ### Midterm Project Partner Evaluation Form
 
-In addition to submitting your project files (see below), each team member is to complete the [Midterm Project Partner Evaluation Form](https://forms.gle/YPZkhe5xyWyLNrnx9) before **Mon Nov 2, 11pm**. The contents of the form you submit will not affect your partner's grade or your own. Please also note that people assigned by an instructor to work in a group of three will need to submit two forms, one for each team member other than themselves.
+In addition to submitting your project files (see below), each team member is required to individually complete the [Midterm Project Partner Evaluation Form](https://forms.gle/YPZkhe5xyWyLNrnx9) before **Mon Nov 2, 11pm**. The contents of the form you submit will not affect your partner's grade or your own. Please also note that people assigned by an instructor to work in a group of three will need to submit two forms, one for each team member other than themselves.
 
 ### Project Submission
 
@@ -505,7 +510,7 @@ ONE team member should submit your project via Gradescope, adding their partner'
 
 The 150 project points will be divided as follows during grading:
 
-* [10] Development Plan (README file due Friday Mar 6th; separate Gradescope submission)
+* [10] Development Plan (README file due Friday Oct 16th; separate Gradescope submission)
 * [10] Submission (includes gitlog, Makefile, updated README)
 * [10] write_ppm function (in `ppm_io.c`)
 * [15] grayscale function
