@@ -51,9 +51,9 @@ well. You must join the Gradescope course page through Canvas.
 * **March 27** — [Homework 5](assign/hw5.html) is posted.
 * **Reminder** — the midterm exam will be held during class Mon Mar 9.
 * **February 27** — [Midterm project](assign/midterm.html) is posted.
-* **February 20** — [Homework 4](https://www.gradescope.com/courses/1222412/assignments/7702221/) is posted.
 -->
 
+* **October 1** — [HW4](https://www.gradescope.com/courses/1328799/assignments/8767708/) is posted.
 * **September 24** — [HW3](assign/hw3.html) is posted!
 * **September 18** — [HW2](https://www.gradescope.com/courses/1328799/assignments/8554974/) posted!
 * **September 11** — [HW1](assign/hw1) posted!
