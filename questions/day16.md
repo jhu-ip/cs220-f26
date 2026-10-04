@@ -12,10 +12,20 @@ reference solutions:
 ---
 
 1. Describe the linked list structure by a diagram.
+<br /><br /><br />
+
 2. Compare arrays and linked lists. Write down their pros and cons.
+<br /><br /><br />
+
 3. What is a linked list's head? How is it different from a node? Explain. 
+<br /><br /><br />
+
 4. How do you calculate `length` of a linked list?
+<br /><br /><br />
+
 5. How do you implement `add_after` on a singly linked list?
+<br /><br /><br />
+
 6. What is the result of running this code on the input values `1 3 5 7 9`? Draw a picture representing memory. 
 
 ```c
@@ -35,3 +45,4 @@ while (scanf("%d", &val) == 1) {
    head = n;
 }
 ```
+<br /><br /><br />

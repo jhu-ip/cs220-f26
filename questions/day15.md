@@ -13,10 +13,20 @@ reference solutions:
 ---
 
 1. What is two's complement representation?
+<br /><br /><br />
+
 2. How does representation of integers and floating-point values differ in C?
+<br /><br /><br />
+
 3. What is type narrowing?
+<br /><br /><br />
+
 4. What is type promotion?
+<br /><br /><br />
+
 5. What is type casting?
+<br /><br /><br />
+
 6. What is the output of the code segment below?
 
 	```c
@@ -25,7 +35,9 @@ reference solutions:
 	printf("int n = %d but (char) n = %c\n", n, (char) n);
 	printf("float x = %f but (long) x = %ld\n", x, (long) x);
 	```
-7. Given the variables above, write an expression to store the value of half of `n` plus ten times `x` truncated to a whole number into variable `long result;`. You can only use the literal values `2` and `10` in your solution.
+<br /><br /><br />
 
+7. Given the variables above, write an expression to store the value of half of `n` plus ten times `x` truncated to a whole number into variable `long result;`. You can only use the literal values `2` and `10` in your solution.
+<br /><br /><br />
 
 
