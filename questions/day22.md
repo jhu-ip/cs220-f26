@@ -9,7 +9,7 @@ reference solutions:
   4. "std::cout << var" and "std::cin >> var" where 'var' is some declared variable.
   5. C++ strings don't have null terminators, do have their own (class) type. Don't have to worry about memory (allocation, reallocation, or deallocation). Supports operators like assignment, concatenation, and comparison.
   6. As long as it needs to be (and the heap can support it).
-  7. (see code in day22.cpp)
+  7. [NEW f26] (see code in day22.cpp)
 ---
 
 1. What is the difference between C and C++?
