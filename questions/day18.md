@@ -11,7 +11,18 @@ reference solutions:
 ---
 
 1. How do you implement *add_front* on a linked list?
+<br /><br /><br />
+
 2. How do you modify a singly linked list to create a doubly linked list?
+<br /><br /><br />
+
 3. How do you make a copy of a singly linked list?
+<br /><br /><br />
+
 4. Why does *add_after* takes a `Node *` as input, but *add_front* takes `Node **`?
+<br /><br /><br />
+
 5. What cases should be handled when implementing *remove_front*?
+<br /><br /><br />
+
+
