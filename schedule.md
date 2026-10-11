@@ -15,12 +15,11 @@ Assignment/Exam | Posted | Due Date
 [Homework 2](https://www.gradescope.com/courses/1328799/assignments/8554974/) | Fri Sep 18 | Fri Sep 25
 [Homework 3](assign/hw3.html) | Fri Sep 25 | Fri Oct 2
 [Homework 4](https://www.gradescope.com/courses/1328799/assignments/8767708/) | Fri Oct 2 | Tue Oct 6
-
+[Midterm Project](assign/midterm.html) | Fri Oct 9  | Fri Oct 16: Dev Plan 
+                                       |            | Wed Oct 28: Code 
+                                       |            | Mon Nov 2: Partner Eval 
+Midterm (C material) | N/A | Mon Oct 19 (in section)
 <!--
-[Midterm Project](assign/midterm.html) | Fri Feb 27 | Fri Mar 6: Dev Plan 
-                                       |            | Wed Mar 25: Code 
-                                       |            | Mon Mar 30: Partner Eval
-Midterm (C material) | N/A | Mon Mar 9 (in section)
 [Homework 5](assign/hw5.html) | Fri Mar 27 | Fri Apr 3
 [Homework 6](https://www.gradescope.com/courses/1222412/assignments/7930454/) | Fri Apr 3 | Fri Apr 10
 [Homework 7](assign/hw7.html) | Fri Apr 10 | Fri Apr 17
