@@ -19,6 +19,7 @@ Assignment/Exam | Posted | Due Date
                                        |            | Wed Oct 28: Code 
                                        |            | Mon Nov 2: Partner Eval 
 Midterm (C material) | N/A | Mon Oct 19 (in section)
+
 <!--
 [Homework 5](assign/hw5.html) | Fri Mar 27 | Fri Apr 3
 [Homework 6](https://www.gradescope.com/courses/1222412/assignments/7930454/) | Fri Apr 3 | Fri Apr 10
