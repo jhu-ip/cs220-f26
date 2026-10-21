@@ -2,11 +2,11 @@
 #include <string>
 #include <cctype>
 
-using std::cin; using std::cout; using std::endl; using std::string;
+using std::cout; using std::endl; using std::string;
 
 int main() {
   string first, last;
-  std::cout << "enter name: ";
+  cout << "enter name: ";
   std::cin >> first >> last;
 
   char init = first.at(0);
@@ -14,6 +14,6 @@ int main() {
   first = init + first.substr(1);
   init = toupper(last.at(0));
   last[0] = init;
-  std::cout << last << ", " << first << endl;
+  cout << last << ", " << first << endl;
   return 0;
 }
