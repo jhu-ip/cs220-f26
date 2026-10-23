@@ -13,9 +13,21 @@ reference solutions:
 ---
 
 1. What is a `map` in C++ STL? What is the difference between `pair` and `tuple`?
+<br /><br /><br />
+
 2. How do you return multiple values in C++?
+<br /><br /><br />
+
 3. What's the difference between an `iterator` and a `const_iterator`?
+<br /><br /><br />
+
 4. Name some useful templated data containers provided by STL.
+<br /><br /><br />
+
 5. Name some useful algorithms provided by `<algorithm>`.
+<br /><br /><br />
+
 6. What operators must be defined on base types used with STL containers and algorithms?
+<br /><br /><br />
+
 7. Describe the approach you would take (using the STL) to arrange a collection of real numbers such that half the collection is in increasing order, half is ordered decreasing, and they are interleaved, for example: 1.1, 9.9, 2.2, 8.8, 3.3, 7.7, 4.4, 6.6, 5.5.

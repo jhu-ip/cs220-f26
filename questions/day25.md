@@ -13,10 +13,22 @@ reference solutions:
 ---
 
 1. How do you read and write files in C++?
+<br /><br /><br />
+
 2. Do we need to explicitly close input or output file streams in C++?
+<br /><br /><br />
+
 3. What is a stringstream in C++?
+<br /><br /><br />
+
 4. How do you extract the contents of a stringstream?
+<br /><br /><br />
+
 5. When is whitespace automatically inserted into an output stream for you?
+<br /><br /><br />
+
 6. What does a constructor do?
+<br /><br /><br />
+
 7. What does a destructor do?
 
