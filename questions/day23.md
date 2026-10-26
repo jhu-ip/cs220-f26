@@ -7,7 +7,7 @@ reference solutions:
   2. A collection of standardly used, templated objects and functions.
   3. Use the push_back method.
   4. A clever pointer that knows how to move over the components of a data structure (e.g. supports increment and dereferencing).
-  5. "for( int i=0 ; i<v.size() ; i++ ) std::cout << v[i] << std::endl;" or " for( vector<type>::iterator it=v.begin() ; it!=v.end ; it++ ) std::cout << *it << std::endl;
+  5. "for( int i=0 ; i<v.size() ; i++ ) std::cout << v[i] << std::endl;" or " for( vector<type>::iterator it=v.begin() ; it!=v.end() ; it++ ) std::cout << *it << std::endl;
   6. "first == 4.5  middle1 == 0.5   middle2 == 4  last == 20"  (separate lines)
 ---
 
