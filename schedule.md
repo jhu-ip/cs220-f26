@@ -19,9 +19,9 @@ Assignment/Exam | Posted | Due Date
                                        |            | Wed Oct 28: Code 
                                        |            | Mon Nov 2: Partner Eval 
 Midterm (C material) | N/A | Mon Oct 19 (in section)
+[Homework 5](assign/hw5.html) | Fri Oct 30 | Fri Nov 6
 
 <!--
-[Homework 5](assign/hw5.html) | Fri Mar 27 | Fri Apr 3
 [Homework 6](https://www.gradescope.com/courses/1222412/assignments/7930454/) | Fri Apr 3 | Fri Apr 10
 [Homework 7](assign/hw7.html) | Fri Apr 10 | Fri Apr 17
 [Final Project](assign/final.html) | Mon Apr 13 | Sun Apr 19: Dev Plan and UML
