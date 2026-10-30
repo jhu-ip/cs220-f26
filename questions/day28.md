@@ -6,7 +6,7 @@ reference solutions:
   1. A constructor that takes arguments
   2. No
   3. A pointer to the current object instance; when a local variable hides an instance variable
-  4. [NEW] Non-default constructor called for ID 10, Default constructor called, Non-default constructor called for ID 20
+  4. Non-default constructor called for ID 10, Default constructor called, Non-default constructor called for ID 20
   5. A method called by C++ when an object's lifetime ends or it is otherwise deallocated
   6. False, the destructor code must do that explicitly
 ---

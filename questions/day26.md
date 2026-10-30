@@ -6,9 +6,9 @@ reference solutions:
   1. An alias for an existing variable
   2. To have output parameters in functions (instead of having to use pointers.) Also when you want to pass a structure to a function without incurring the cost of a copy.
   3. Reference variable can't be NULL, must be initialized immediately, can't be changed
-  4. [NEW] 16 16 16
+  4. 16 16 16
   5. new or new[] and delete or delete[]
-  6. [NEW]  should be `delete[]` not `delete`
+  6. should be `delete[]` not `delete`
 ---
 
 1. What is a C++ reference?
