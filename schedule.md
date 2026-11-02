@@ -17,7 +17,7 @@ Assignment/Exam | Posted | Due Date
 [Homework 4](https://www.gradescope.com/courses/1328799/assignments/8767708/) | Fri Oct 2 | Tue Oct 6
 [Midterm Project](assign/midterm.html) | Fri Oct 9  | Fri Oct 16: Dev Plan 
                                        |            | Wed Oct 28: Code 
-                                       |            | Mon Nov 2: Partner Eval 
+                                       |            | Mon Nov 2: [Partner Eval](https://forms.gle/YPZkhe5xyWyLNrnx9) 
 Midterm (C material) | N/A | Mon Oct 19 (in section)
 [Homework 5](assign/hw5.html) | Fri Oct 30 | Fri Nov 6
 
