@@ -12,10 +12,13 @@ reference solutions:
 ---
 
 1. What is a non-default (or "alternative") constructor?
+<br /><br /><br />
 
 2. If we define a non-default constructor, will C++ generate an implicitly defined default constructor?
+<br /><br /><br />
 
 3. What is `this` and when do we use the `this` keyword?
+<br /><br /><br />
 
 4. Trace the output of the following code and explain which constructors are called at each step and why?
 
@@ -43,5 +46,7 @@ reference solutions:
 	```
 
 5. What is a destructor?
+<br /><br /><br />
 
 6. A destructor will automatically release memories that are allocated in the constructor- true or false?
+<br /><br /><br />

@@ -13,9 +13,22 @@ reference solutions:
 ---
 
 1. What is object-oriented programming?
+<br /><br /><br />
+
 2. What is the difference between a public and a private field/member function?
+<br /><br /><br />
+
 3. Do class fields and member functions default to public or private?
+<br /><br /><br />
+
 4. What is the use case of `const` as modifier in a method header? 
+<br /><br /><br />
+
 5. Can we define member functions in a struct in C? How does C++ handle structs? Can we do that in C++?
+<br /><br /><br />
+
 6. What is a default constructor?
+<br /><br /><br />
+
 7. Why is using an initializer list in a class constructor a better choice than not using one?
+<br /><br /><br />

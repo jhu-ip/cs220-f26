@@ -12,10 +12,13 @@ reference solutions:
 ---
 
 1. What is a C++ reference?
+<br /><br /><br />
 
 2. When should you use C++ references?
+<br /><br /><br />
 
 3. What is the difference between a pointer and a reference?
+<br /><br /><br />
 
 4. What is the output of the following?
 
@@ -40,6 +43,8 @@ reference solutions:
 	```
 
 5. How do you dynamically allocate and deallocate memory in C++?
+<br /><br /><br />
+
 6. What is wrong with the following code?
 
 	```c
