@@ -10,7 +10,7 @@ title: Homework 7
 <ul>
 <li>You are expected to work individually.</li>
 <li>Due: <strong>Fri Nov 20 at 11pm (Baltimore time).</strong></li>
-<li>This assignment is graded out of 70 points.</li>
+<li>This assignment is graded out of 4 points.</li>
 </ul>
 </div>
 </div>
@@ -251,7 +251,6 @@ checks does not mean you have earned all the points.</li>
 
 ### Coarse grading breakdown
 
-* Submission and style: 10 points
-* CTree implemetation: 40 points
-* Templated Tree implementation: 20 points
-
+* Submission and style: 0.5 points
+* CTree implemetation: 2.5 points
+* Templated Tree implementation: 1 point
