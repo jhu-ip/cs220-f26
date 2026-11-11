@@ -49,6 +49,7 @@ well. You must join the Gradescope course page through Canvas.
 * **April 1** — Final exam location information has been added to syllabus.
 -->
 
+* **November 10** — [Final Project Team](https://piazza.com/class/mqqmuff1qgi6l/post/163) submission instructions are posted on Piazza.
 * **November 4** — [Homework 6](https://www.gradescope.com/courses/1328799/assignments/8990525) is posted.
 * **October 30** — [Homework 5](assign/hw5.html) is posted.
 * **Reminder** — the midterm exam will be held during class Mon Oct 19.

@@ -21,6 +21,7 @@ Assignment/Exam | Posted | Due Date
 Midterm (C material) | N/A | Mon Oct 19 (in section)
 [Homework 5](assign/hw5.html) | Fri Oct 30 | Fri Nov 6
 [Homework 6](https://www.gradescope.com/courses/1328799/assignments/8990525) | Wed Nov 4 | Tue Nov 10
+[Final Project Team](https://piazza.com/class/mqqmuff1qgi6l/post/163) | Tue Nov 10 | Sun Nov 15
 
 <!--
 [Homework 7](assign/hw7.html) | Fri Apr 10 | Fri Apr 17
