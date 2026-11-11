@@ -89,7 +89,7 @@ Minimally, here are the functions that your CTree must have, keeping in mind tha
 
 * An (overloaded) `addChild` function, which is passed the root of an existing tree to be stored as a child of this node. This function returns false if the root is invalid (has prev or siblings), or if the data in the root node is already a child of the tree node. Otherwise it adds the node in order and returns true. Note that this function will not make a copy of the tree argument, but rather attach it directly. This is important to keep in mind when freeing memory.
 
-* Two private `addSibling` functions. One is passed a character to be stored in a new node, and the other is passed the root of an existing tree. Each of these functions returns false if it fails (because the data is already a sibling to the right of this tree node, or the root node is invalid) and true if it succeeds. The note regarging the subtree being attached directly and not copied applies here, too.
+* Two private `addSibling` functions. One is passed a character to be stored in a new node, and the other is passed the root of an existing tree. Each of these functions returns false if it fails (because the data is already a sibling to the right of this tree node, or the root node is invalid) and true if it succeeds. The note regarding the subtree being attached directly and not copied applies here, too.
 
 <div class='admonition caution'>
 <div class='title'>Caution</div>
@@ -145,7 +145,7 @@ You are given a file named `CTreeTest.cpp` that tests your CTree implementation.
 
 ### Part 2: Templated Tree
 
-For the second and final part of the assignment you will generalize the CTree from Part 1 to create a templated ordered tree with unique siblings. Note that you will write your own header file for this part. Your tree class must be called Tree and be declared in `Tree.h`. The implementation of functions longer than one line should occur outside of the class. You may place them in `Tree.inc` and then `#include` this file in `Tree.h` after the class declaration. If your programming environment is giving you issues with using `.inc` files, you may alternatively place your implementation in the `.h` file after the class declaration.
+For the second and final part of the assignment you will generalize the CTree from Part 1 to create a templated ordered tree with unique siblings. Note that you will write your own header file for this part. Your tree class must be called Tree and be declared in `Tree.h`. The implementation of functions longer than one line should occur outside of the class. You may place them in `Tree.inc` and then `#include` this file in `Tree.h` after the class declaration. If your programming environment is giving you issues with using `.inc` files, you may alternatively place your implementation code directly in the `.h` file after the class declaration.
 
 <div class='admonition caution'>
 <div class='title'>Caution</div>
@@ -155,9 +155,9 @@ Remember to keep data private, and use const protection whenever you can.</p>
 </div>
 </div>
 
-Your Tree class must contain the same public functions and overloaded operators as the CTree class, except that the parameters for the data stored in each node will now be of some generic type instead of char.
+Your Tree class must contain the same public functions and overloaded operators as the CTree class, except that the parameters for the data stored in each node will now be of some generic type instead of `char`.
 
-Because the templated tree will need to keep siblings in order and unique, each base type is assumed to have the equals `==` operator and the less than `<` operator defined on them in addition to the `<<` operator invoked in the provided `toString()` method in `Tree.inc`. These operators and assignment `=` are the only operators your templated Tree implementation may use. If your implementation in `CTree.cpp` uses other operators, you will need to rewrite those functions when porting them for the templated tree. 
+Because the templated tree will need to keep siblings in order and unique, each base type is assumed to have the equals `==` operator and the less than `<` operator defined on them in addition to the `<<` operator invoked in the provided `toString()` method in `Tree.inc`. These operators and assignment `=` are the only operators your templated Tree implementation may use on the data type stored in the nodes. If your implementation in `CTree.cpp` uses other operators, you will need to rewrite those functions when porting them for the templated tree. 
 
 #### Testing
 
