@@ -10,7 +10,11 @@ reference solutions:
 ---
 
 1.	What is UML? 
+<br /><br /><br />
 2.	What type of class relationship is likely to exist between a class that represents bathroom objects and one that represents apartment objects?
+<br /><br /><br />
 3.	What type of class relationship is likely to exist between a class that represents apartment objects and one that represents housing objects?
+<br /><br /><br />
 4.  BONUS: which of bathroom, apartment, housing would likely be an abstract class?
+<br /><br /><br />
 
