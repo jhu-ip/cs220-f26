@@ -23,6 +23,7 @@ Midterm (C material) | N/A | Mon Oct 19 (in section)
 [Homework 6](https://www.gradescope.com/courses/1328799/assignments/8990525) | Wed Nov 4 | Tue Nov 10
 [Final Project Team](https://piazza.com/class/mqqmuff1qgi6l/post/163) | Tue Nov 10 | Sun Nov 15
 [Homework 7](assign/hw7.html) | Fri Nov 13 | Fri Apr 17
+
 <!--
 [Final Project](assign/final.html) | Mon Apr 13 | Sun Apr 19: Dev Plan and UML
                                    |            | Mon Apr 27: Code and Partner Eval
