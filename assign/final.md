@@ -14,7 +14,7 @@ title: Final Project
 <li><strong>Development Plan & UML Diagram: Wed Dec 2 at 11pm.</strong></li>
 <li><strong>Implementation: Fri Dec 11 at 11pm.</strong></li>
 <li><strong>Partner Evaluation Form: Fri Dec 11 at 11:59pm.</strong></li>
-</ul
+</ul>
 <li>This assignment is worth 165 points.</li>
 <li>The 12-hour late grace period applies to all deadlines.</li>
 </ul>
