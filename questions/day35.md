@@ -8,15 +8,27 @@ reference solutions:
   3. `throw`, `try`, `catch`
   4. The first one whose type equals to, or is a base of, the class of the thrown exception
   5. Call the exception's `what` member function
-  6. [NEW] T, F, F
+  6. T, F, F
 ---
 
 1. What is the difference between an unscoped and a scoped enum?
+<br /><br /><br />
 2. Why do we use exceptions?
-3. What keyword is used to generate an exception? What keyword indicates that the block of code may generate an exception? What keyword indicates what should be done in the case of an exception?
+<br /><br /><br />
+3. What keyword is used to generate an exception?
+<br />
+What keyword indicates that the block of code may generate an exception?
+<br />
+What keyword indicates what should be done in the case of an exception?
+<br />
 4. In the case of multiple matching `catch` blocks, which one catches the exception?
+<br /><br /><br />
 5. How do you get the message associated with an exception?
+<br /><br /><br />
 6. For each statement below, indicate whether it is true or false:<br/>
-a. You can define your own *customized* exception class, derived from `exception`. (T or F)  <br/>
+a. You can define your own *customized* exception class, derived from `exception`. (T or F)  <br />
+<br /><br /><br />
 b. Best practice is to arrange catch blocks from least to most specific type. (T or F)<br/>
-c. C++ passes control to first catch block whose type equals or is a derived class of the thrown exception. (T or F)
+<br /><br /><br />
+c. C++ passes control to first catch block whose type equals or is a derived class of the thrown exception. (T or F)<br />
+<br /><br /><br />
