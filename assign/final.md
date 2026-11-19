@@ -395,7 +395,7 @@ Each person should be committing their work; it shouldn't be the case that the s
 
 ### Final Project Partner Evaluation Form (Individual)
 
-In addition to submitting your project files (see below), each team member must complete the [Final Project Partner Evaluation Form](https://forms.gle/gqHdrvE3NDpyTn399) for each of their team members, including themselves, before the provided deadline. This is to say, if you are in a team of three, you will be submitting the form three times: once for each partner and once for your self evaluation.
+In addition to submitting your project files (see below), each team member must complete the [Final Project Partner Evaluation Form](https://forms.gle/Nm2WdUuZFyH43voVA) for each of their team members, including themselves, before the provided deadline. This is to say, if you are in a team of three, you will be submitting the form three times: once for each partner and once for your self evaluation.
 
 This is an important part of the project and there will be an individual point penalty for failing to submit each form. The contents of the form you submit will not affect your partners' grades.
 

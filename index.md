@@ -44,9 +44,10 @@ well. You must join the Gradescope course page through Canvas.
 ## News
 
 <!--
-* **April 13** — [Final Project](assign/final.html) is posted!
 * **April 1** — Final exam location information has been added to syllabus.
 -->
+
+* **November 20** — [Final Project](assign/final.html) is posted!
 * **November 13** — [HW7](assign/hw7.html) is posted!
 * **November 10** — [Final Project Team](https://piazza.com/class/mqqmuff1qgi6l/post/163) submission instructions are posted on Piazza.
 * **November 4** — [HW6](https://www.gradescope.com/courses/1328799/assignments/8990525) is posted.

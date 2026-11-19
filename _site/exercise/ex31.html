@@ -32,7 +32,7 @@
     <div class="admonition info">
 <div class="title">Info</div>
 <div class="content">
-<p>This is an in-class exercise. An exercise page like this one will contain a brief description but is intended to be supplemented by discussion during our meeting time. Complete the exercise to the best of your ability in the time given. Feel free to talk with other students as you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting. You are encouraged to work at home to complete what you do not get through today, and ask questions over Piazza or in office hours.</p>
+<p>This is an in-class exercise. An exercise page like this one will contain a brief description but is intended to be supplemented by discussion during our meeting time. Complete the exercise to the best of your ability in the time given. Feel free to talk with other students as you work, and do not be afraid to ask questions if you get stuck. Aim to complete as much as possible during our meeting, minimally 50%, submitting to Gradescope as you go for feedback. You are encouraged to work at home to complete what you do not get through today, and ask questions over Piazza or in office hours.</p>
 </div>
 </div>
 
@@ -57,21 +57,32 @@
   <li>
     <p>Copy the files from the public class repository <code class="language-plaintext highlighter-rouge">/exercises/ex31/</code> directory to your personal repo. Navigate to your personal repo copy – you should see files named <code class="language-plaintext highlighter-rouge">Makefile</code>, <code class="language-plaintext highlighter-rouge">README</code>, and <code class="language-plaintext highlighter-rouge">main1.cpp</code> inside. We will also make directory <code class="language-plaintext highlighter-rouge">ex30-sol</code> available the morning of this exercise.</p>
   </li>
+  <li>
+    <p>Read <code class="language-plaintext highlighter-rouge">main1.cpp</code>.  It shows an example of how to use a new template class named <code class="language-plaintext highlighter-rouge">my_set</code>. Before you can compile and run the code using commands <code class="language-plaintext highlighter-rouge">make</code> and   <code class="language-plaintext highlighter-rouge">./main1</code>, you will need to transform your completed files <code class="language-plaintext highlighter-rouge">int_node.h</code>, <code class="language-plaintext highlighter-rouge">int_set.h</code> and <code class="language-plaintext highlighter-rouge">int_set.cpp</code> from Exercise 30. <mark>If you didn't complete Exercise 30 yet, use the files provided in the <code>ex30-sol</code> folder as a starting point for this exercise.</mark></p>
+  </li>
 </ol>
-
-<h3 id="part-2">Part 2</h3>
-<p>Read <code class="language-plaintext highlighter-rouge">main1.cpp</code>.  It shows an example of how to use a new template class named <code class="language-plaintext highlighter-rouge">my_set</code>. Before you can compile and run the code using commands <code class="language-plaintext highlighter-rouge">make</code> and   <code class="language-plaintext highlighter-rouge">./main1</code>, you will need to transform your completed files <code class="language-plaintext highlighter-rouge">int_node.h</code>, <code class="language-plaintext highlighter-rouge">int_set.h</code> and <code class="language-plaintext highlighter-rouge">int_set.cpp</code> from Exercise 30. <mark>If you didn't complete Exercise 30 yet, use the files provided in the <code>ex30-sol</code> folder as a starting point for this exercise.</mark></p>
 
 <p>If using your own solution files Exercise 30, copy them over to your Exercise 31 folder. This will serve as the remainder of your starter code for Exercise 31.</p>
 
-<h3 id="part-3">Part 3</h3>
-<p>Next, follow the instructional comments in <code class="language-plaintext highlighter-rouge">README</code>.</p>
+<h3 id="part-2">Part 2</h3>
+<p>Next, follow the instructional comments in <code class="language-plaintext highlighter-rouge">README</code>. This walks you through the steps need to convert <code class="language-plaintext highlighter-rouge">int_set</code> into a templated class called <code class="language-plaintext highlighter-rouge">my_set</code>.</p>
 
-<h3 id="part-4">Part 4</h3>
+<h3 id="part-3">Part 3</h3>
 <p>Run <code class="language-plaintext highlighter-rouge">valgrind</code> on <code class="language-plaintext highlighter-rouge">main1.cpp</code>. Fix any memory leaks that it finds.</p>
 
-<h3 id="part-5">Part 5</h3>
+<h3 id="part-4">Part 4</h3>
 <p>Add additional testing code in <code class="language-plaintext highlighter-rouge">main1.cpp</code> to more fully test your code, then re-run <code class="language-plaintext highlighter-rouge">valgrind</code>.</p>
+
+<div class="admonition tip">
+<div class="title">Reminder</div>
+<div class="content">
+<p>Remember to add and commit to your local repo copy as your work. Push
+to your remote repo when finished. Use <code>exit</code> to logout from your ugrad
+account when finished. If you continue to work on the program after
+class, make sure to keep your repo updated as well! It will serve as a good reference for completing homework #7. </p>
+</div>
+</div>
+
 
 
     <div id="footer"></div>
