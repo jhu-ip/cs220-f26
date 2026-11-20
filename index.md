@@ -48,6 +48,7 @@ well. You must join the Gradescope course page through Canvas.
 -->
 
 * **November 20** — [Final Project](assign/final.html) is posted!
+* **November 20** - [HW8](https://www.gradescope.com/courses/1328799/assignments/9072044) is posted (code review for HW7).
 * **November 13** — [HW7](assign/hw7.html) is posted!
 * **November 10** — [Final Project Team](https://piazza.com/class/mqqmuff1qgi6l/post/163) submission instructions are posted on Piazza.
 * **November 4** — [HW6](https://www.gradescope.com/courses/1328799/assignments/8990525) is posted.
