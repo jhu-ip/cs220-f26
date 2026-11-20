@@ -172,7 +172,7 @@ From: [Alchetron.com, "Chess: The Games for the Brain"](https://alchetron.com/Tr
 
 If any piece other than a pawn moves according to the movement rules above, and ends up in a square occupied by a piece owned by the opposing player, then the opponent’s piece is “captured” and removed from the board for the remainder of the game.
 
-Pawns have different shapes for normal movement versus for capturing. Pawn _movement_ is always forward (one or two squares, depending on the original position), whereas _pawn capturing_ is always diagonal. See [here](https://en.wikipedia.org/wiki/Pawn_(chess)#Capturing).
+Pawns have different shapes for normal movement versus for capturing. Pawn _movement_ is always forward (one or two squares, depending on the original position), whereas _pawn capturing_ is always diagonal one square. See [here](https://en.wikipedia.org/wiki/Pawn_(chess)#Capturing).
 
 ### Special Movement of Pieces
 
@@ -256,8 +256,8 @@ start position is not on board
 end position is not on board
 no piece at start position
 piece color and turn do not match
-illegal move shape
 cannot capture own piece
+illegal move shape
 illegal capture shape
 path is not clear
 move exposes check
@@ -363,7 +363,7 @@ You may use any ASCII characters to display your board on standard out, and you 
 * In C++ source (`.cpp`) files, you may import individual symbols using statements like "`using std::string`".  But you may <em>not</em> use "`using namespace <id>`", either in headers or in source files.
 * You are expected to make use of <strong>gdb</strong> to debug and also to run <strong>valgrind</strong> to make sure there is no memory leakage or invalid memory usage.
 * Each source file you submit should contain several comment lines at the top giving the names and JHEDs of each member of your project team.
-* You are encouraged to begin submitting your work well before the deadline, keeping in mind that **there are no late days available for use with this group assignment**.
+* You are encouraged to begin submitting your work well before the deadline.
 
 ## Code Submission (Team)
 
@@ -371,7 +371,7 @@ Create a zip file named `project.zip` containing your source files as well as `c
 
 Copy `project.zip` to your local machine and submit it as Final Project (Team) on Gradescope. This will be a group submission, where *you must indicate each team member's name on Gradescope when you (first) submit*. Please make sure that the same team member submits subsequent versions as well.
 
-As always, when you submit, Gradescope conducts some basica, automatic tests. If you see error messages (in red), address them and resubmit. You may re-submit any number of times prior to the deadline; only your latest submission will be graded.
+As always, when you submit, Gradescope conducts some basic, automatic tests. If you see error messages (in red), address them and resubmit. You may re-submit any number of times prior to the deadline; only your latest submission will be graded.
 
 Two notes regarding automatic checks for programming assignments:
 
